@@ -40,3 +40,6 @@ next-env.d.ts
 
 # superpowers brainstorm
 .superpowers/
+
+# personal notes
+nextsteps.md
