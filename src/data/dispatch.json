@@ -1,156 +1,156 @@
 [
   {
-    "id": "shopify-9090401698013",
-    "name": "Poolside Print",
-    "price": 30.00,
-    "currency": "USD",
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0780/4213/6797/files/Dispatch---Summer-Swimsuit-Special-SDN.png?v=1762938076",
-    "productUrl": "https://store.adhocla.com/products/print-poolside-heroes",
-    "source": "store.adhocla.com",
-    "inStock": true,
-    "scrapedAt": "2026-03-13T00:00:00.000Z"
-  },
-  {
     "id": "shopify-9090398879965",
     "name": "SDN Mug",
-    "price": 18.00,
+    "price": 18,
     "currency": "USD",
     "imageUrl": "https://cdn.shopify.com/s/files/1/0780/4213/6797/files/IMG_7514.png?v=1772643335",
     "productUrl": "https://store.adhocla.com/products/sdn-mug",
     "source": "store.adhocla.com",
     "inStock": true,
-    "scrapedAt": "2026-03-13T00:00:00.000Z"
+    "scrapedAt": "2026-03-14T04:24:26.459Z"
   },
   {
-    "id": "shopify-9133820117213",
-    "name": "Mechaman Hoodie",
-    "price": 55.00,
+    "id": "shopify-9090401698013",
+    "name": "Poolside Print",
+    "price": 30,
     "currency": "USD",
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0780/4213/6797/files/MechaManHoodie_front.png?v=1762940310",
-    "productUrl": "https://store.adhocla.com/products/mechaman-hoodie",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0780/4213/6797/files/Dispatch---Summer-Swimsuit-Special-SDN.png?v=1762938076",
+    "productUrl": "https://store.adhocla.com/products/print-poolside-heroes",
     "source": "store.adhocla.com",
-    "inStock": false,
-    "scrapedAt": "2026-03-13T00:00:00.000Z"
-  },
-  {
-    "id": "shopify-9133600407773",
-    "name": "SDN Fun Run Crewneck",
-    "price": 45.00,
-    "currency": "USD",
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0780/4213/6797/files/Crewneack-Front-All.png?v=1762936516",
-    "productUrl": "https://store.adhocla.com/products/sdn-funrun-crewneck",
-    "source": "store.adhocla.com",
-    "inStock": false,
-    "scrapedAt": "2026-03-13T00:00:00.000Z"
-  },
-  {
-    "id": "shopify-9133816381661",
-    "name": "Malevola Shirt",
-    "price": 35.00,
-    "currency": "USD",
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0780/4213/6797/files/Malevola_OffBlack.png?v=1762936810",
-    "productUrl": "https://store.adhocla.com/products/malevola-shirt",
-    "source": "store.adhocla.com",
-    "inStock": false,
-    "scrapedAt": "2026-03-13T00:00:00.000Z"
-  },
-  {
-    "id": "shopify-9133815169245",
-    "name": "Coupe Shirt",
-    "price": 35.00,
-    "currency": "USD",
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0780/4213/6797/files/Coupe_Kanji_Cream_fe023a2b-7861-4a39-bbf2-fd3804803281.png?v=1762913744",
-    "productUrl": "https://store.adhocla.com/products/coupe-shirt",
-    "source": "store.adhocla.com",
-    "inStock": false,
-    "scrapedAt": "2026-03-13T00:00:00.000Z"
-  },
-  {
-    "id": "shopify-9091295674589",
-    "name": "SDN Fun Run Shirt",
-    "price": 35.00,
-    "currency": "USD",
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0780/4213/6797/files/Fun-Run-Front-All_whiteSM.png?v=1762936694",
-    "productUrl": "https://store.adhocla.com/products/wacky-chase-1",
-    "source": "store.adhocla.com",
-    "inStock": false,
-    "scrapedAt": "2026-03-13T00:00:00.000Z"
-  },
-  {
-    "id": "shopify-9091266576605",
-    "name": "Wacky Chase Shirt",
-    "price": 35.00,
-    "currency": "USD",
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0780/4213/6797/files/Screenshot2025-11-12at1.01.57AM.png?v=1762938204",
-    "productUrl": "https://store.adhocla.com/products/wacky-chase",
-    "source": "store.adhocla.com",
-    "inStock": false,
-    "scrapedAt": "2026-03-13T00:00:00.000Z"
+    "inStock": true,
+    "scrapedAt": "2026-03-14T04:24:26.459Z"
   },
   {
     "id": "shopify-9133811106013",
     "name": "Dispatch Cover Art Print (No. 1B) by David Nakayama",
-    "price": 35.00,
+    "price": 35,
     "currency": "USD",
     "imageUrl": "https://cdn.shopify.com/s/files/1/0780/4213/6797/files/1B_LastBender_Cover_DavidNakayama_Copy.jpg?v=1762900311",
     "productUrl": "https://store.adhocla.com/products/malevola-sonar-print",
     "source": "store.adhocla.com",
     "inStock": false,
-    "scrapedAt": "2026-03-13T00:00:00.000Z"
-  },
-  {
-    "id": "shopify-9133809271005",
-    "name": "Dispatch Cover Art Print (No. 1A) by Dan Hipp",
-    "price": 35.00,
-    "currency": "USD",
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0780/4213/6797/files/1A_Splash_Cover_DanHipp_Copy_6195d2a6-8827-4653-ae57-ec40abc86db9.jpg?v=1762900246",
-    "productUrl": "https://store.adhocla.com/products/waterboy-print",
-    "source": "store.adhocla.com",
-    "inStock": false,
-    "scrapedAt": "2026-03-13T00:00:00.000Z"
-  },
-  {
-    "id": "shopify-9175468015837",
-    "name": "Dispatch Cover Art Print (No. 2A) by Malia Ewart",
-    "price": 35.00,
-    "currency": "USD",
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0780/4213/6797/files/2A_PasDeDuex_Cover_MaliaEwart_Copy.jpg?v=1771357457",
-    "productUrl": "https://store.adhocla.com/products/dispatch-issue-2a-cover-print",
-    "source": "store.adhocla.com",
-    "inStock": false,
-    "scrapedAt": "2026-03-13T00:00:00.000Z"
-  },
-  {
-    "id": "shopify-9175468572893",
-    "name": "Dispatch Cover Art Print (No. 2B) by David Liu",
-    "price": 35.00,
-    "currency": "USD",
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0780/4213/6797/files/2B_Shellshock_Cover_DavidLiu_Copy_ae7512aa-bcb1-4b1c-a355-c3eafd7a24c2.jpg?v=1762904533",
-    "productUrl": "https://store.adhocla.com/products/dispatch-issue-2b-cover-print",
-    "source": "store.adhocla.com",
-    "inStock": false,
-    "scrapedAt": "2026-03-13T00:00:00.000Z"
+    "scrapedAt": "2026-03-14T04:24:26.459Z"
   },
   {
     "id": "shopify-9175469588701",
     "name": "Dispatch Cover Art Print (No. 3) by Jae Lee",
-    "price": 35.00,
+    "price": 35,
     "currency": "USD",
     "imageUrl": "https://cdn.shopify.com/s/files/1/0780/4213/6797/files/03_GetUp_Cover_JaeLee_V2_Copy.jpg?v=1762900504",
     "productUrl": "https://store.adhocla.com/products/dispatch-issue-3-cover-print",
     "source": "store.adhocla.com",
     "inStock": false,
-    "scrapedAt": "2026-03-13T00:00:00.000Z"
+    "scrapedAt": "2026-03-14T04:24:26.459Z"
+  },
+  {
+    "id": "shopify-9175468572893",
+    "name": "Dispatch Cover Art Print (No. 2B) by David Liu",
+    "price": 35,
+    "currency": "USD",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0780/4213/6797/files/2B_Shellshock_Cover_DavidLiu_Copy_ae7512aa-bcb1-4b1c-a355-c3eafd7a24c2.jpg?v=1762904533",
+    "productUrl": "https://store.adhocla.com/products/dispatch-issue-2b-cover-print",
+    "source": "store.adhocla.com",
+    "inStock": false,
+    "scrapedAt": "2026-03-14T04:24:26.459Z"
+  },
+  {
+    "id": "shopify-9175468015837",
+    "name": "Dispatch Cover Art Print (No. 2A) by Malia Ewart",
+    "price": 35,
+    "currency": "USD",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0780/4213/6797/files/2A_PasDeDuex_Cover_MaliaEwart_Copy.jpg?v=1771357457",
+    "productUrl": "https://store.adhocla.com/products/dispatch-issue-2a-cover-print",
+    "source": "store.adhocla.com",
+    "inStock": false,
+    "scrapedAt": "2026-03-14T04:24:26.459Z"
+  },
+  {
+    "id": "shopify-9133809271005",
+    "name": "Dispatch Cover Art Print (No. 1A) by Dan Hipp",
+    "price": 35,
+    "currency": "USD",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0780/4213/6797/files/1A_Splash_Cover_DanHipp_Copy_6195d2a6-8827-4653-ae57-ec40abc86db9.jpg?v=1762900246",
+    "productUrl": "https://store.adhocla.com/products/waterboy-print",
+    "source": "store.adhocla.com",
+    "inStock": false,
+    "scrapedAt": "2026-03-14T04:24:26.459Z"
   },
   {
     "id": "shopify-9175165173981",
     "name": "Dispatch Cover Art Print (No. 4) by Betty Jiang",
-    "price": 35.00,
+    "price": 35,
     "currency": "USD",
     "imageUrl": "https://cdn.shopify.com/s/files/1/0780/4213/6797/files/4_DeathOfMechaman_Cover_BettyJiang_Copy.jpg?v=1762897363",
     "productUrl": "https://store.adhocla.com/products/dispatch-issue-4-cover-print",
     "source": "store.adhocla.com",
     "inStock": false,
-    "scrapedAt": "2026-03-13T00:00:00.000Z"
+    "scrapedAt": "2026-03-14T04:24:26.459Z"
+  },
+  {
+    "id": "shopify-9133816381661",
+    "name": "Malevola Shirt",
+    "price": 35,
+    "currency": "USD",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0780/4213/6797/files/Malevola_OffBlack.png?v=1762936810",
+    "productUrl": "https://store.adhocla.com/products/malevola-shirt",
+    "source": "store.adhocla.com",
+    "inStock": false,
+    "scrapedAt": "2026-03-14T04:24:26.459Z"
+  },
+  {
+    "id": "shopify-9133815169245",
+    "name": "Coupe Shirt",
+    "price": 35,
+    "currency": "USD",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0780/4213/6797/files/Coupe_Kanji_Cream_fe023a2b-7861-4a39-bbf2-fd3804803281.png?v=1762913744",
+    "productUrl": "https://store.adhocla.com/products/coupe-shirt",
+    "source": "store.adhocla.com",
+    "inStock": false,
+    "scrapedAt": "2026-03-14T04:24:26.459Z"
+  },
+  {
+    "id": "shopify-9091295674589",
+    "name": "SDN Fun Run Shirt",
+    "price": 35,
+    "currency": "USD",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0780/4213/6797/files/Fun-Run-Front-All_whiteSM.png?v=1762936694",
+    "productUrl": "https://store.adhocla.com/products/wacky-chase-1",
+    "source": "store.adhocla.com",
+    "inStock": false,
+    "scrapedAt": "2026-03-14T04:24:26.459Z"
+  },
+  {
+    "id": "shopify-9091266576605",
+    "name": "Wacky Chase Shirt",
+    "price": 35,
+    "currency": "USD",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0780/4213/6797/files/Screenshot2025-11-12at1.01.57AM.png?v=1762938204",
+    "productUrl": "https://store.adhocla.com/products/wacky-chase",
+    "source": "store.adhocla.com",
+    "inStock": false,
+    "scrapedAt": "2026-03-14T04:24:26.459Z"
+  },
+  {
+    "id": "shopify-9133600407773",
+    "name": "SDN Fun Run Crewneck",
+    "price": 45,
+    "currency": "USD",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0780/4213/6797/files/Crewneack-Front-All.png?v=1762936516",
+    "productUrl": "https://store.adhocla.com/products/sdn-funrun-crewneck",
+    "source": "store.adhocla.com",
+    "inStock": false,
+    "scrapedAt": "2026-03-14T04:24:26.459Z"
+  },
+  {
+    "id": "shopify-9133820117213",
+    "name": "Mechaman Hoodie",
+    "price": 55,
+    "currency": "USD",
+    "imageUrl": "https://cdn.shopify.com/s/files/1/0780/4213/6797/files/MechaManHoodie_front.png?v=1762940310",
+    "productUrl": "https://store.adhocla.com/products/mechaman-hoodie",
+    "source": "store.adhocla.com",
+    "inStock": false,
+    "scrapedAt": "2026-03-14T04:24:26.459Z"
   }
 ]
