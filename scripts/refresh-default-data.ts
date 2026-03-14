@@ -297,16 +297,20 @@ async function main() {
 
   // 4 queries × 1 page = 4 searches/day = ~120/month (within 250 free limit)
   // Extra pages are wasteful — Google Shopping repeats the same ~40 products across pages
-  const [shopifyProducts, serp1, serp2, serp3, serp4, ebayProducts] = await Promise.all([
+  const [shopifyProducts, serp1, serp2, serp3, serp4, ebay1, ebay2, ebay3, ebay4] = await Promise.all([
     scrapeShopify(),
     scrapeSerpApi("Dispatch Game Merch", 1),
     scrapeSerpApi("Dispatch Game Displate", 1),
     scrapeSerpApi("Dispatch Game Etsy", 1),
     scrapeSerpApi("Dispatch Adhoc Studio Merch", 1),
     scrapeEbay("dispatch adhoc"),
+    scrapeEbay("Dispatch clothing game"),
+    scrapeEbay("Dispatch SDN"),
+    scrapeEbay("Dispatch video game 2025 merch"),
   ]);
 
   // Merge all products
+  const ebayProducts = [...ebay1, ...ebay2, ...ebay3, ...ebay4];
   const allProducts = [...shopifyProducts, ...serp1, ...serp2, ...serp3, ...serp4, ...ebayProducts];
 
   // Deduplicate by product id (catches same product across queries/pages)
@@ -334,7 +338,7 @@ async function main() {
   console.log(`\nWrote ${unique.length} total products to dispatch.json`);
   console.log(`  Shopify: ${shopifyProducts.length}`);
   console.log(`  SerpAPI: ${serp1.length + serp2.length + serp3.length + serp4.length}`);
-  console.log(`  eBay: ${ebayProducts.length}`);
+  console.log(`  eBay: ${ebay1.length + ebay2.length + ebay3.length + ebay4.length}`);
   console.log(`  After dedup: ${unique.length}`);
 }
 
