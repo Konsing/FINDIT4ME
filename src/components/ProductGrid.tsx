@@ -17,7 +17,15 @@ export default function ProductGrid({ products }: ProductGridProps) {
   }
 
   const sorted = [...products].sort((a, b) => {
+    // Shopify (official store) products first
+    const aShopify = a.id.startsWith("shopify-") ? 0 : 1;
+    const bShopify = b.id.startsWith("shopify-") ? 0 : 1;
+    if (aShopify !== bShopify) return aShopify - bShopify;
+
+    // Within each group: in-stock first
     if (a.inStock !== b.inStock) return a.inStock ? -1 : 1;
+
+    // Then by price ascending (null last)
     const priceA = a.price ?? Infinity;
     const priceB = b.price ?? Infinity;
     return priceA - priceB;

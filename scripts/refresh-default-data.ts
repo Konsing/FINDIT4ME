@@ -264,15 +264,16 @@ async function scrapeEbay(query: string): Promise<Product[]> {
 async function main() {
   console.log("Refreshing default product data...\n");
 
-  // Run all scrapers in parallel
-  const [shopifyProducts, serpProducts, ebayProducts] = await Promise.all([
+  // Run all scrapers in parallel (2 SerpAPI queries = ~60 searches/month, within 100 free limit)
+  const [shopifyProducts, serpProducts1, serpProducts2, ebayProducts] = await Promise.all([
     scrapeShopify(),
     scrapeSerpApi("dispatch adhoc studio"),
+    scrapeSerpApi("dispatch video game merchandise"),
     scrapeEbay("dispatch adhoc studio game"),
   ]);
 
   // Merge all products
-  const allProducts = [...shopifyProducts, ...serpProducts, ...ebayProducts];
+  const allProducts = [...shopifyProducts, ...serpProducts1, ...serpProducts2, ...ebayProducts];
 
   // Deduplicate by productUrl
   const seen = new Set<string>();
@@ -282,8 +283,11 @@ async function main() {
     return true;
   });
 
-  // Sort: in-stock first, then by price ascending (null last)
+  // Sort: Shopify first, then in-stock, then by price ascending (null last)
   unique.sort((a, b) => {
+    const aShopify = a.id.startsWith("shopify-") ? 0 : 1;
+    const bShopify = b.id.startsWith("shopify-") ? 0 : 1;
+    if (aShopify !== bShopify) return aShopify - bShopify;
     if (a.inStock !== b.inStock) return a.inStock ? -1 : 1;
     const priceA = a.price ?? Infinity;
     const priceB = b.price ?? Infinity;
@@ -295,7 +299,7 @@ async function main() {
 
   console.log(`\nWrote ${unique.length} total products to dispatch.json`);
   console.log(`  Shopify: ${shopifyProducts.length}`);
-  console.log(`  SerpAPI: ${serpProducts.length}`);
+  console.log(`  SerpAPI: ${serpProducts1.length + serpProducts2.length}`);
   console.log(`  eBay: ${ebayProducts.length}`);
   console.log(`  After dedup: ${unique.length}`);
 }
