@@ -147,64 +147,87 @@ async function scrapeSerpApi(query: string, pages: number = 4): Promise<Product[
   const allProducts: Product[] = [];
 
   for (let page = 0; page < pages; page++) {
-    try {
-      const controller = new AbortController();
-      const timeout = setTimeout(() => controller.abort(), 15_000);
+    let lastError = "";
 
-      const searchQuery = encodeURIComponent(query);
-      const start = page * 20;
-      const url = `https://serpapi.com/search.json?engine=google_shopping&q=${searchQuery}&api_key=${apiKey}&num=20&start=${start}`;
+    for (let attempt = 0; attempt < 2; attempt++) {
+      try {
+        const controller = new AbortController();
+        const timeout = setTimeout(() => controller.abort(), 30_000);
 
-      const res = await fetch(url, { signal: controller.signal });
-      clearTimeout(timeout);
+        const searchQuery = encodeURIComponent(query);
+        const start = page * 20;
+        const url = `https://serpapi.com/search.json?engine=google_shopping&q=${searchQuery}&api_key=${apiKey}&num=20&start=${start}`;
 
-      if (!res.ok) {
-        const body = await res.text();
-        console.error(`  SerpAPI: page ${page + 1} returned ${res.status}: ${body}`);
+        const res = await fetch(url, { signal: controller.signal });
+        clearTimeout(timeout);
+
+        if (!res.ok) {
+          lastError = `returned ${res.status}: ${await res.text()}`;
+          if (attempt === 0) {
+            console.log(`  SerpAPI: "${query}" page ${page + 1} failed, retrying in 3s...`);
+            await new Promise((r) => setTimeout(r, 3000));
+            continue;
+          }
+          console.error(`  SerpAPI: page ${page + 1} ${lastError}`);
+          break;
+        }
+
+        const data = (await res.json()) as SerpApiResponse;
+
+        if (data.error) {
+          lastError = data.error;
+          if (attempt === 0) {
+            console.log(`  SerpAPI: "${query}" page ${page + 1} error, retrying in 3s...`);
+            await new Promise((r) => setTimeout(r, 3000));
+            continue;
+          }
+          console.error(`  SerpAPI: page ${page + 1} error — ${data.error}`);
+          break;
+        }
+
+        const items = data.shopping_results ?? [];
+        if (items.length === 0) {
+          console.log(`  SerpAPI: page ${page + 1} — no more results`);
+          break;
+        }
+
+        const now = new Date().toISOString();
+
+        const products: Product[] = items
+          .filter((item) => {
+            const hostname = getHostname(item.product_link);
+            return !EXCLUDED_DOMAINS.some((d) => hostname.endsWith(d));
+          })
+          .filter((item) => item.thumbnail)
+          .filter((item) => !isExcludedProduct(item.title))
+          .map((item) => ({
+            id: `serp-${item.product_id ?? item.title}`,
+            name: item.title,
+            price: item.extracted_price ?? null,
+            currency: "USD",
+            imageUrl: item.thumbnail ?? "",
+            productUrl: item.product_link,
+            source: item.source ?? getHostname(item.product_link),
+            inStock: true,
+            scrapedAt: now,
+          }));
+
+        allProducts.push(...products);
+        console.log(`  SerpAPI: page ${page + 1} — ${products.length} products`);
+        lastError = "";
         break;
+      } catch (err: unknown) {
+        lastError = err instanceof Error ? err.message : String(err);
+        if (attempt === 0) {
+          console.log(`  SerpAPI: "${query}" page ${page + 1} failed (${lastError}), retrying in 3s...`);
+          await new Promise((r) => setTimeout(r, 3000));
+          continue;
+        }
+        console.error(`  SerpAPI: page ${page + 1} error — ${lastError}`);
       }
-
-      const data = (await res.json()) as SerpApiResponse;
-
-      if (data.error) {
-        console.error(`  SerpAPI: page ${page + 1} error — ${data.error}`);
-        break;
-      }
-
-      const items = data.shopping_results ?? [];
-      if (items.length === 0) {
-        console.log(`  SerpAPI: page ${page + 1} — no more results`);
-        break;
-      }
-
-      const now = new Date().toISOString();
-
-      const products: Product[] = items
-        .filter((item) => {
-          const hostname = getHostname(item.product_link);
-          return !EXCLUDED_DOMAINS.some((d) => hostname.endsWith(d));
-        })
-        .filter((item) => item.thumbnail)
-        .filter((item) => !isExcludedProduct(item.title))
-        .map((item) => ({
-          id: `serp-${item.product_id ?? item.title}`,
-          name: item.title,
-          price: item.extracted_price ?? null,
-          currency: "USD",
-          imageUrl: item.thumbnail ?? "",
-          productUrl: item.product_link,
-          source: item.source ?? getHostname(item.product_link),
-          inStock: true,
-          scrapedAt: now,
-        }));
-
-      allProducts.push(...products);
-      console.log(`  SerpAPI: page ${page + 1} — ${products.length} products`);
-    } catch (err: unknown) {
-      const message = err instanceof Error ? err.message : String(err);
-      console.error(`  SerpAPI: page ${page + 1} error — ${message}`);
-      break;
     }
+
+    if (lastError) break;
   }
 
   console.log(`  SerpAPI: total for "${query}" — ${allProducts.length} products`);
@@ -246,7 +269,7 @@ async function scrapeEbay(query: string): Promise<Product[]> {
 
     // Search
     const controller = new AbortController();
-    const timeout = setTimeout(() => controller.abort(), 10_000);
+    const timeout = setTimeout(() => controller.abort(), 20_000);
 
     const searchQuery = encodeURIComponent(query);
     const url = `https://api.ebay.com/buy/browse/v1/item_summary/search?q=${searchQuery}&limit=50&filter=buyingOptions:{FIXED_PRICE}`;
@@ -295,20 +318,29 @@ async function scrapeEbay(query: string): Promise<Product[]> {
 async function main() {
   console.log("Refreshing default product data...\n");
 
-  // 5 SerpAPI queries × 1 page = 5 searches/day = ~150/month (within 250 free limit)
-  // Extra pages are wasteful — Google Shopping repeats the same ~40 products across pages
-  const [shopifyProducts, serp1, serp2, serp3, serp4, serp5, ebay1, ebay2, ebay3, ebay4] = await Promise.all([
+  // Shopify + eBay run in parallel (different APIs, no conflict)
+  const [shopifyProducts, ebay1, ebay2, ebay3, ebay4] = await Promise.all([
     scrapeShopify(),
-    scrapeSerpApi("Dispatch Game Merch", 1),
-    scrapeSerpApi("Dispatch Game Displate", 1),
-    scrapeSerpApi("Dispatch Game Etsy", 1),
-    scrapeSerpApi("Dispatch Adhoc Studio Merch", 1),
-    scrapeSerpApi("Dispatch Game Redbubble", 1),
     scrapeEbay("dispatch adhoc"),
     scrapeEbay("Dispatch clothing game"),
     scrapeEbay("Dispatch SDN"),
     scrapeEbay("Dispatch video game 2025 merch"),
   ]);
+
+  // SerpAPI queries run sequentially to avoid rate limits and timeouts
+  // 5 queries × 1 page = 5 searches/day = ~150/month (within 250 free limit)
+  const serpQueries = [
+    "Dispatch Game Merch",
+    "Dispatch Game Displate",
+    "Dispatch Game Etsy",
+    "Dispatch Adhoc Studio Merch",
+    "Dispatch Game Redbubble",
+  ];
+  const serpResults: Product[][] = [];
+  for (const query of serpQueries) {
+    serpResults.push(await scrapeSerpApi(query, 1));
+  }
+  const [serp1, serp2, serp3, serp4, serp5] = serpResults;
 
   // Merge all products
   const ebayProducts = [...ebay1, ...ebay2, ...ebay3, ...ebay4];
