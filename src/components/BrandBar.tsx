@@ -10,7 +10,7 @@ export default function BrandBar({
   isLoading,
 }: BrandBarProps) {
   return (
-    <div className="flex items-center justify-between px-6 py-3">
+    <div className="flex items-center justify-between px-6 lg:px-16 xl:px-24 py-3">
       <div className="flex items-center gap-2">
         <span className="text-xs text-[#666] uppercase tracking-widest">
           Showing results for

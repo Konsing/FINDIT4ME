@@ -24,7 +24,7 @@ export default function ProductGrid({ products }: ProductGridProps) {
   });
 
   return (
-    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-0.5 px-6 py-2 flex-1">
+    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-0.5 px-6 lg:px-16 xl:px-24 py-2 flex-1">
       {sorted.map((product) => (
         <ProductCard key={product.id} product={product} />
       ))}

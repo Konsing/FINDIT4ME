@@ -43,7 +43,7 @@ export default function Home() {
         <ProductGrid products={products} />
       )}
       {error && products.length > 0 && (
-        <div className="px-6 py-2">
+        <div className="px-6 lg:px-16 xl:px-24 py-2">
           <p className="text-xs text-red-400/70 text-center">{error}</p>
         </div>
       )}
