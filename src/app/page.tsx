@@ -9,6 +9,7 @@ import AboutModal from "@/components/AboutModal";
 import { useSearch } from "@/lib/useSearch";
 import defaultProducts from "@/data/dispatch.json";
 import { Product } from "@/lib/types";
+import type { SortOption } from "@/components/SortDropdown";
 
 export default function Home() {
   const { products, filterQuery, handleSearch } = useSearch(
@@ -16,9 +17,11 @@ export default function Home() {
   );
   const [aboutOpen, setAboutOpen] = useState(false);
   const [resetKey, setResetKey] = useState(0);
+  const [sortOption, setSortOption] = useState<SortOption>("default");
 
   const handleLogoClick = () => {
     handleSearch("");
+    setSortOption("default");
     setResetKey((k) => k + 1);
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
@@ -36,8 +39,10 @@ export default function Home() {
         productCount={products.length}
         isLoading={false}
         filterQuery={filterQuery}
+        sortOption={sortOption}
+        onSortChange={setSortOption}
       />
-      <ProductGrid products={products} />
+      <ProductGrid products={products} sortOption={sortOption} />
       <Footer />
       <AboutModal isOpen={aboutOpen} onClose={() => setAboutOpen(false)} />
     </div>
