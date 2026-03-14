@@ -39,6 +39,7 @@ interface ShopifyProduct {
 
 interface SerpApiShoppingResult {
   title: string;
+  product_id?: string;
   product_link: string;
   source: string;
   price?: string;
@@ -168,8 +169,8 @@ async function scrapeSerpApi(query: string, pages: number = 4): Promise<Product[
           return !EXCLUDED_DOMAINS.some((d) => hostname.endsWith(d));
         })
         .filter((item) => item.thumbnail)
-        .map((item, index) => ({
-          id: `serp-${start + index}-${Date.now()}`,
+        .map((item) => ({
+          id: `serp-${item.product_id ?? item.title}`,
           name: item.title,
           price: item.extracted_price ?? null,
           currency: "USD",
@@ -277,22 +278,25 @@ async function scrapeEbay(query: string): Promise<Product[]> {
 async function main() {
   console.log("Refreshing default product data...\n");
 
-  // 4 + 2 pages = 6 searches/day = ~180/month (within 250 free limit)
-  const [shopifyProducts, serp1, serp2, ebayProducts] = await Promise.all([
+  // 4 queries × 1 page = 4 searches/day = ~120/month (within 250 free limit)
+  // Extra pages are wasteful — Google Shopping repeats the same ~40 products across pages
+  const [shopifyProducts, serp1, serp2, serp3, serp4, ebayProducts] = await Promise.all([
     scrapeShopify(),
-    scrapeSerpApi("Dispatch Game Merch", 4),
-    scrapeSerpApi("Dispatch Game Displate", 2),
+    scrapeSerpApi("Dispatch Game Merch", 1),
+    scrapeSerpApi("Dispatch Game Displate", 1),
+    scrapeSerpApi("Dispatch Game Etsy", 1),
+    scrapeSerpApi("Dispatch Adhoc Studio Merch", 1),
     scrapeEbay("dispatch adhoc"),
   ]);
 
   // Merge all products
-  const allProducts = [...shopifyProducts, ...serp1, ...serp2, ...ebayProducts];
+  const allProducts = [...shopifyProducts, ...serp1, ...serp2, ...serp3, ...serp4, ...ebayProducts];
 
-  // Deduplicate by productUrl
+  // Deduplicate by product id (catches same product across queries/pages)
   const seen = new Set<string>();
   const unique = allProducts.filter((p) => {
-    if (seen.has(p.productUrl)) return false;
-    seen.add(p.productUrl);
+    if (seen.has(p.id)) return false;
+    seen.add(p.id);
     return true;
   });
 
@@ -312,7 +316,7 @@ async function main() {
 
   console.log(`\nWrote ${unique.length} total products to dispatch.json`);
   console.log(`  Shopify: ${shopifyProducts.length}`);
-  console.log(`  SerpAPI: ${serp1.length + serp2.length}`);
+  console.log(`  SerpAPI: ${serp1.length + serp2.length + serp3.length + serp4.length}`);
   console.log(`  eBay: ${ebayProducts.length}`);
   console.log(`  After dedup: ${unique.length}`);
 }
