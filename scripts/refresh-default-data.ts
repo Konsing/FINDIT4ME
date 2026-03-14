@@ -77,6 +77,22 @@ const EXCLUDED_DOMAINS = [
   "instagram.com",
 ];
 
+// Filter out products related to 911/emergency dispatch, not the game
+const EXCLUDED_KEYWORDS = [
+  "bingo",
+  "icebreaker",
+  "911",
+  "dispatcher",
+  "comm center",
+  "radio strap",
+  "thin gold line",
+];
+
+function isExcludedProduct(name: string): boolean {
+  const lower = name.toLowerCase();
+  return EXCLUDED_KEYWORDS.some((kw) => lower.includes(kw));
+}
+
 function getHostname(url: string): string {
   try {
     return new URL(url).hostname.replace(/^www\./, "");
@@ -169,6 +185,7 @@ async function scrapeSerpApi(query: string, pages: number = 4): Promise<Product[
           return !EXCLUDED_DOMAINS.some((d) => hostname.endsWith(d));
         })
         .filter((item) => item.thumbnail)
+        .filter((item) => !isExcludedProduct(item.title))
         .map((item) => ({
           id: `serp-${item.product_id ?? item.title}`,
           name: item.title,
