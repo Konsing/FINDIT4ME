@@ -267,8 +267,8 @@ async function main() {
   // Run all scrapers in parallel (2 SerpAPI queries = ~60 searches/month, within 100 free limit)
   const [shopifyProducts, serpProducts1, serpProducts2, ebayProducts] = await Promise.all([
     scrapeShopify(),
-    scrapeSerpApi("dispatch adhoc studio"),
-    scrapeSerpApi("dispatch video game merchandise"),
+    scrapeSerpApi("Dispatch Game Merch"),
+    scrapeSerpApi("Dispatch Adhoc Studio Merch"),
     scrapeEbay("dispatch adhoc studio game"),
   ]);
 
