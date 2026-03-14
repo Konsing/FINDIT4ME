@@ -9,37 +9,18 @@ const EXCLUDED_DOMAINS = [
   "instagram.com",
 ];
 
-interface GooglePagemap {
-  offer?: Array<{ price?: string }>;
-  product?: Array<{ price?: string }>;
-  cse_image?: Array<{ src?: string }>;
-}
-
-interface GoogleSearchItem {
+interface SerpApiShoppingResult {
   title: string;
-  link: string;
-  pagemap?: GooglePagemap;
+  product_link: string;
+  source: string;
+  price?: string;
+  extracted_price?: number;
+  thumbnail?: string;
 }
 
-interface GoogleSearchResponse {
-  items?: GoogleSearchItem[];
-}
-
-function extractPrice(pagemap?: GooglePagemap): number | null {
-  const raw =
-    pagemap?.offer?.[0]?.price ??
-    pagemap?.product?.[0]?.price ??
-    null;
-
-  if (raw == null) return null;
-
-  const parsed = parseFloat(raw);
-  return isNaN(parsed) ? null : parsed;
-}
-
-function cleanTitle(title: string): string {
-  // Remove common site name suffixes like " - Amazon.com", " | eBay", etc.
-  return title.replace(/\s*[-|]\s*[^-|]+$/, "").trim();
+interface SerpApiResponse {
+  shopping_results?: SerpApiShoppingResult[];
+  error?: string;
 }
 
 function getHostname(url: string): string {
@@ -55,52 +36,54 @@ function isExcludedDomain(url: string): boolean {
   return EXCLUDED_DOMAINS.some((domain) => hostname.endsWith(domain));
 }
 
-export async function scrapeGoogle(query: string): Promise<ScrapeResult> {
-  const apiKey = process.env.GOOGLE_API_KEY;
-  const cx = process.env.GOOGLE_SEARCH_ENGINE_ID;
+export async function scrapeSerpApi(query: string): Promise<ScrapeResult> {
+  const apiKey = process.env.SERPAPI_KEY;
 
-  if (!apiKey || !cx) {
-    return { products: [], source: "google" };
+  if (!apiKey) {
+    return { products: [], source: "serpapi" };
   }
 
   try {
     const controller = new AbortController();
-    const timeout = setTimeout(() => controller.abort(), 10_000);
+    const timeout = setTimeout(() => controller.abort(), 15_000);
 
-    const searchQuery = encodeURIComponent(`${query} merchandise buy`);
-    const url = `https://customsearch.googleapis.com/customsearch/v1?key=${apiKey}&cx=${cx}&q=${searchQuery}&num=10`;
+    const searchQuery = encodeURIComponent(`${query} merchandise`);
+    const url = `https://serpapi.com/search.json?engine=google_shopping&q=${searchQuery}&api_key=${apiKey}&num=20`;
 
     const res = await fetch(url, { signal: controller.signal });
     clearTimeout(timeout);
 
-    if (res.status === 429) {
-      return { products: [], source: "google", error: "Google API quota exceeded" };
-    }
-
     if (!res.ok) {
-      return { products: [], source: "google", error: `Google API returned ${res.status}` };
+      return { products: [], source: "serpapi", error: `SerpAPI returned ${res.status}` };
     }
 
-    const data = (await res.json()) as GoogleSearchResponse;
-    const items = data.items ?? [];
+    const data = (await res.json()) as SerpApiResponse;
+
+    if (data.error) {
+      return { products: [], source: "serpapi", error: data.error };
+    }
+
+    const items = data.shopping_results ?? [];
+    const now = new Date().toISOString();
 
     const products: Product[] = items
-      .filter((item) => !isExcludedDomain(item.link))
+      .filter((item) => !isExcludedDomain(item.product_link))
+      .filter((item) => item.thumbnail)
       .map((item, index) => ({
-        id: `google-${index}-${Date.now()}`,
-        name: cleanTitle(item.title),
-        price: extractPrice(item.pagemap),
+        id: `serp-${index}-${Date.now()}`,
+        name: item.title,
+        price: item.extracted_price ?? null,
         currency: "USD",
-        imageUrl: item.pagemap?.cse_image?.[0]?.src ?? "",
-        productUrl: item.link,
-        source: getHostname(item.link),
+        imageUrl: item.thumbnail ?? "",
+        productUrl: item.product_link,
+        source: item.source ?? getHostname(item.product_link),
         inStock: true,
-        scrapedAt: new Date().toISOString(),
+        scrapedAt: now,
       }));
 
-    return { products, source: "google" };
+    return { products, source: "serpapi" };
   } catch (err: unknown) {
     const message = err instanceof Error ? err.message : String(err);
-    return { products: [], source: "google", error: message };
+    return { products: [], source: "serpapi", error: message };
   }
 }

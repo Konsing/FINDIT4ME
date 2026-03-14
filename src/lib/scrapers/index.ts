@@ -1,13 +1,13 @@
 import type { Product, ScrapeResult } from "@/lib/types";
 import { scrapeShopify } from "@/lib/scrapers/shopify";
 import { scrapeEbay } from "@/lib/scrapers/ebay";
-import { scrapeGoogle } from "@/lib/scrapers/google";
+import { scrapeSerpApi } from "@/lib/scrapers/google";
 
 export async function scrapeAll(query: string): Promise<Product[]> {
   const results = await Promise.allSettled<ScrapeResult>([
     scrapeShopify(query),
     scrapeEbay(query),
-    scrapeGoogle(query),
+    scrapeSerpApi(query),
   ]);
 
   const allProducts: Product[] = [];

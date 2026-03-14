@@ -35,23 +35,20 @@ interface ShopifyProduct {
   images: ShopifyImage[];
 }
 
-// ── Google CSE types ───────────────────────────────────
+// ── SerpAPI types ──────────────────────────────────────
 
-interface GooglePagemap {
-  offer?: Array<{ price?: string }>;
-  product?: Array<{ price?: string }>;
-  cse_image?: Array<{ src?: string }>;
-}
-
-interface GoogleSearchItem {
+interface SerpApiShoppingResult {
   title: string;
-  link: string;
-  pagemap?: GooglePagemap;
+  product_link: string;
+  source: string;
+  price?: string;
+  extracted_price?: number;
+  thumbnail?: string;
 }
 
-interface GoogleSearchResponse {
-  items?: GoogleSearchItem[];
-  error?: { code: number; message: string };
+interface SerpApiResponse {
+  shopping_results?: SerpApiShoppingResult[];
+  error?: string;
 }
 
 // ── eBay types ─────────────────────────────────────────
@@ -87,10 +84,6 @@ function getHostname(url: string): string {
   }
 }
 
-function cleanTitle(title: string): string {
-  return title.replace(/\s*[-|]\s*[^-|]+$/, "").trim();
-}
-
 // ── Shopify scraper ────────────────────────────────────
 
 async function scrapeShopify(): Promise<Product[]> {
@@ -122,85 +115,67 @@ async function scrapeShopify(): Promise<Product[]> {
   return products;
 }
 
-// ── Google CSE scraper ─────────────────────────────────
+// ── SerpAPI scraper ────────────────────────────────────
 
-async function scrapeGoogle(query: string): Promise<Product[]> {
-  const apiKey = process.env.GOOGLE_API_KEY;
-  const cx = process.env.GOOGLE_SEARCH_ENGINE_ID;
+async function scrapeSerpApi(query: string): Promise<Product[]> {
+  const apiKey = process.env.SERPAPI_KEY;
 
-  if (!apiKey || !cx) {
-    console.log("  Google CSE: skipping (no credentials)");
+  if (!apiKey) {
+    console.log("  SerpAPI: skipping (no credentials)");
     return [];
   }
 
-  console.log(`  Google CSE: searching for "${query}"...`);
+  console.log(`  SerpAPI: searching for "${query}"...`);
 
   try {
     const controller = new AbortController();
-    const timeout = setTimeout(() => controller.abort(), 10_000);
+    const timeout = setTimeout(() => controller.abort(), 15_000);
 
-    const searchQuery = encodeURIComponent(`${query} merchandise buy`);
-    const url = `https://customsearch.googleapis.com/customsearch/v1?key=${apiKey}&cx=${cx}&q=${searchQuery}&num=10`;
+    const searchQuery = encodeURIComponent(`${query} merchandise`);
+    const url = `https://serpapi.com/search.json?engine=google_shopping&q=${searchQuery}&api_key=${apiKey}&num=20`;
 
     const res = await fetch(url, { signal: controller.signal });
     clearTimeout(timeout);
 
-    if (res.status === 429) {
-      console.warn("  Google CSE: quota exceeded (429)");
-      return [];
-    }
-
     if (!res.ok) {
       const body = await res.text();
-      console.error(`  Google CSE: API returned ${res.status}: ${body}`);
+      console.error(`  SerpAPI: returned ${res.status}: ${body}`);
       return [];
     }
 
-    const data = (await res.json()) as GoogleSearchResponse;
+    const data = (await res.json()) as SerpApiResponse;
 
     if (data.error) {
-      console.error(`  Google CSE: API error ${data.error.code}: ${data.error.message}`);
+      console.error(`  SerpAPI: error — ${data.error}`);
       return [];
     }
 
-    const items = data.items ?? [];
+    const items = data.shopping_results ?? [];
     const now = new Date().toISOString();
 
     const products: Product[] = items
       .filter((item) => {
-        const hostname = getHostname(item.link);
+        const hostname = getHostname(item.product_link);
         return !EXCLUDED_DOMAINS.some((d) => hostname.endsWith(d));
       })
-      .filter((item) => {
-        // Must have an image to be useful
-        return item.pagemap?.cse_image?.[0]?.src;
-      })
+      .filter((item) => item.thumbnail)
       .map((item, index) => ({
-        id: `google-${index}-${Date.now()}`,
-        name: cleanTitle(item.title),
-        price:
-          (() => {
-            const raw =
-              item.pagemap?.offer?.[0]?.price ??
-              item.pagemap?.product?.[0]?.price ??
-              null;
-            if (raw == null) return null;
-            const parsed = parseFloat(raw);
-            return isNaN(parsed) ? null : parsed;
-          })(),
+        id: `serp-${index}-${Date.now()}`,
+        name: item.title,
+        price: item.extracted_price ?? null,
         currency: "USD",
-        imageUrl: item.pagemap?.cse_image?.[0]?.src ?? "",
-        productUrl: item.link,
-        source: getHostname(item.link),
+        imageUrl: item.thumbnail ?? "",
+        productUrl: item.product_link,
+        source: item.source ?? getHostname(item.product_link),
         inStock: true,
         scrapedAt: now,
       }));
 
-    console.log(`  Google CSE: found ${products.length} products`);
+    console.log(`  SerpAPI: found ${products.length} products`);
     return products;
   } catch (err: unknown) {
     const message = err instanceof Error ? err.message : String(err);
-    console.error(`  Google CSE: error — ${message}`);
+    console.error(`  SerpAPI: error — ${message}`);
     return [];
   }
 }
@@ -290,14 +265,14 @@ async function main() {
   console.log("Refreshing default product data...\n");
 
   // Run all scrapers in parallel
-  const [shopifyProducts, googleProducts, ebayProducts] = await Promise.all([
+  const [shopifyProducts, serpProducts, ebayProducts] = await Promise.all([
     scrapeShopify(),
-    scrapeGoogle("dispatch adhoc studio"),
+    scrapeSerpApi("dispatch adhoc studio"),
     scrapeEbay("dispatch adhoc studio game"),
   ]);
 
   // Merge all products
-  const allProducts = [...shopifyProducts, ...googleProducts, ...ebayProducts];
+  const allProducts = [...shopifyProducts, ...serpProducts, ...ebayProducts];
 
   // Deduplicate by productUrl
   const seen = new Set<string>();
@@ -320,7 +295,7 @@ async function main() {
 
   console.log(`\nWrote ${unique.length} total products to dispatch.json`);
   console.log(`  Shopify: ${shopifyProducts.length}`);
-  console.log(`  Google CSE: ${googleProducts.length}`);
+  console.log(`  SerpAPI: ${serpProducts.length}`);
   console.log(`  eBay: ${ebayProducts.length}`);
   console.log(`  After dedup: ${unique.length}`);
 }
