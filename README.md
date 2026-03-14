@@ -11,13 +11,11 @@ Currently pre-loaded with **Dispatch** (2025 video game by AdHoc Studio) merchan
 
 ---
 
-<p align="center">
-  <img src="docs/screenshot-products.png" alt="FINDIT4ME product grid" width="800" />
-</p>
+![FINDIT4ME product grid](docs/screenshot-products.png)
+*Browse merchandise from multiple retailers in a responsive grid — official store items appear first, with sold-out badges on unavailable products.*
 
-<p align="center">
-  <img src="docs/screenshot-sort.png" alt="Sort dropdown menu" width="800" />
-</p>
+![Sort dropdown menu](docs/screenshot-sort.png)
+*Sort products by price or name using the dropdown, or filter with the search bar. Click the logo to reset everything.*
 
 ---
 
