@@ -8,7 +8,7 @@
     "productUrl": "https://store.adhocla.com/products/sdn-mug",
     "source": "store.adhocla.com",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:24.743Z"
+    "scrapedAt": "2026-03-14T09:08:45.049Z"
   },
   {
     "id": "shopify-9090401698013",
@@ -19,7 +19,7 @@
     "productUrl": "https://store.adhocla.com/products/print-poolside-heroes",
     "source": "store.adhocla.com",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:24.743Z"
+    "scrapedAt": "2026-03-14T09:08:45.049Z"
   },
   {
     "id": "shopify-9133811106013",
@@ -30,7 +30,7 @@
     "productUrl": "https://store.adhocla.com/products/malevola-sonar-print",
     "source": "store.adhocla.com",
     "inStock": false,
-    "scrapedAt": "2026-03-14T09:04:24.743Z"
+    "scrapedAt": "2026-03-14T09:08:45.049Z"
   },
   {
     "id": "shopify-9175469588701",
@@ -41,7 +41,7 @@
     "productUrl": "https://store.adhocla.com/products/dispatch-issue-3-cover-print",
     "source": "store.adhocla.com",
     "inStock": false,
-    "scrapedAt": "2026-03-14T09:04:24.743Z"
+    "scrapedAt": "2026-03-14T09:08:45.049Z"
   },
   {
     "id": "shopify-9175468572893",
@@ -52,7 +52,7 @@
     "productUrl": "https://store.adhocla.com/products/dispatch-issue-2b-cover-print",
     "source": "store.adhocla.com",
     "inStock": false,
-    "scrapedAt": "2026-03-14T09:04:24.743Z"
+    "scrapedAt": "2026-03-14T09:08:45.049Z"
   },
   {
     "id": "shopify-9175468015837",
@@ -63,7 +63,7 @@
     "productUrl": "https://store.adhocla.com/products/dispatch-issue-2a-cover-print",
     "source": "store.adhocla.com",
     "inStock": false,
-    "scrapedAt": "2026-03-14T09:04:24.743Z"
+    "scrapedAt": "2026-03-14T09:08:45.049Z"
   },
   {
     "id": "shopify-9133809271005",
@@ -74,7 +74,7 @@
     "productUrl": "https://store.adhocla.com/products/waterboy-print",
     "source": "store.adhocla.com",
     "inStock": false,
-    "scrapedAt": "2026-03-14T09:04:24.743Z"
+    "scrapedAt": "2026-03-14T09:08:45.049Z"
   },
   {
     "id": "shopify-9175165173981",
@@ -85,7 +85,7 @@
     "productUrl": "https://store.adhocla.com/products/dispatch-issue-4-cover-print",
     "source": "store.adhocla.com",
     "inStock": false,
-    "scrapedAt": "2026-03-14T09:04:24.743Z"
+    "scrapedAt": "2026-03-14T09:08:45.049Z"
   },
   {
     "id": "shopify-9133816381661",
@@ -96,7 +96,7 @@
     "productUrl": "https://store.adhocla.com/products/malevola-shirt",
     "source": "store.adhocla.com",
     "inStock": false,
-    "scrapedAt": "2026-03-14T09:04:24.743Z"
+    "scrapedAt": "2026-03-14T09:08:45.049Z"
   },
   {
     "id": "shopify-9133815169245",
@@ -107,7 +107,7 @@
     "productUrl": "https://store.adhocla.com/products/coupe-shirt",
     "source": "store.adhocla.com",
     "inStock": false,
-    "scrapedAt": "2026-03-14T09:04:24.743Z"
+    "scrapedAt": "2026-03-14T09:08:45.049Z"
   },
   {
     "id": "shopify-9091295674589",
@@ -118,7 +118,7 @@
     "productUrl": "https://store.adhocla.com/products/wacky-chase-1",
     "source": "store.adhocla.com",
     "inStock": false,
-    "scrapedAt": "2026-03-14T09:04:24.743Z"
+    "scrapedAt": "2026-03-14T09:08:45.049Z"
   },
   {
     "id": "shopify-9091266576605",
@@ -129,7 +129,7 @@
     "productUrl": "https://store.adhocla.com/products/wacky-chase",
     "source": "store.adhocla.com",
     "inStock": false,
-    "scrapedAt": "2026-03-14T09:04:24.743Z"
+    "scrapedAt": "2026-03-14T09:08:45.049Z"
   },
   {
     "id": "shopify-9133600407773",
@@ -140,7 +140,7 @@
     "productUrl": "https://store.adhocla.com/products/sdn-funrun-crewneck",
     "source": "store.adhocla.com",
     "inStock": false,
-    "scrapedAt": "2026-03-14T09:04:24.743Z"
+    "scrapedAt": "2026-03-14T09:08:45.049Z"
   },
   {
     "id": "shopify-9133820117213",
@@ -151,886 +151,1227 @@
     "productUrl": "https://store.adhocla.com/products/mechaman-hoodie",
     "source": "store.adhocla.com",
     "inStock": false,
-    "scrapedAt": "2026-03-14T09:04:24.743Z"
+    "scrapedAt": "2026-03-14T09:08:45.049Z"
   },
   {
-    "id": "serp-18-1773479067212",
+    "id": "serp-74-1773479332759",
+    "name": "Dispatch Game Sticker | Waterproof Vinyl Stickers, Durable, Suitable for Cars, Phones, Laptops, Skate Shoes, Toolboxes, Cups - Easy to Apply and",
+    "price": 2.13,
+    "currency": "USD",
+    "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTVwMODvn7JYjfs1BPqvIRzQ8xvdrKB2qUFBohdgfGr7wL8u30sNwXzq4icMMRMup5O63DLq7_FoxBIzDhLKKXf6k-9CpkY-yY7AcnFNCK1",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=productid:6891356392983052383,headlineOfferDocid:6891356392983052383,imageDocid:7817277706278631517,pvt:hg&hl=en&gl=us&udm=28",
+    "source": "Temu",
+    "inStock": true,
+    "scrapedAt": "2026-03-14T09:08:52.759Z"
+  },
+  {
+    "id": "serp-79-1773479332759",
+    "name": "10/55PCS Dispatch Cartoon Stickers Game Figure Role Graffiti Decals Decoration DIY Notebook Suitcase",
+    "price": 2.41,
+    "currency": "USD",
+    "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQmUjytSzKsAPoymm3lD9IAbNf6rQSr8eC_DcTON9_GpgTYmyUXwgHkN7_BgKBoTj_SLWVvYe-mFNH0FKUrY-suhCIpW8d-jR1x-j6Fz2Fk1F-qMZvQaVJqLA",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=productid:9787644391109808728,headlineOfferDocid:9787644391109808728,imageDocid:2771743215777978582,pvt:hg&hl=en&gl=us&udm=28",
+    "source": "AliExpress",
+    "inStock": true,
+    "scrapedAt": "2026-03-14T09:08:52.759Z"
+  },
+  {
+    "id": "serp-78-1773479336683",
+    "name": "Retro Herman Homage Dispatch Waterboy Tee",
+    "price": 2.7,
+    "currency": "USD",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT3wHliCqULhEZIKszHgC-LiLb3VmDlMTUj2niUUrKmVAjQa6PLdLYJSvh-f3lPqjRYlUsDPpnYuMKrkxoSr7F97QDIqntR57QCr2vWJo0t",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=catalogid:4077004715652938814,headlineOfferDocid:1794374468849268067,imageDocid:5423840888520822468,rds:CID_4077004715652938814|PROD_CID_4077004715652938814,pvt:a&hl=en&gl=us&udm=28",
+    "source": "Etsy - Seller",
+    "inStock": true,
+    "scrapedAt": "2026-03-14T09:08:56.683Z"
+  },
+  {
+    "id": "serp-48-1773479332759",
+    "name": "57pcs New Game Dispatch Graffiti Stickers Suitcase Stationery Laptop Computer Guitar Cell Phone DIY",
+    "price": 2.88,
+    "currency": "USD",
+    "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQOZkcsBiFU_Q4DnsJae38gUK5_Kd_mDeSYpAMIhdwtVqy09qUMpAAXu7fPtDw94Af3v6N6NzMhygu1a5kq2di_wN2lgEnwHMNPJBlgeErUCUF9AxMShaYDHQ",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=productid:665494888204587350,headlineOfferDocid:665494888204587350,imageDocid:14861775960250413418,pvt:hg&hl=en&gl=us&udm=28",
+    "source": "AliExpress",
+    "inStock": true,
+    "scrapedAt": "2026-03-14T09:08:52.759Z"
+  },
+  {
+    "id": "serp-67-1773479332759",
+    "name": "Dispatch Video Game Stickers | High Quality Sticker - white matte - Available in all sizes | Dispatch Love, Dispatch",
+    "price": 2.99,
+    "currency": "USD",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRNmlC8TKAUcSz5SSYd-_iebCA-c7o7b0z2qxbl7C86-ka04GwnJECxgwvdQwV_yXW1Q10X4hFI4Gb3od7jKznzs5O650V7452CfzAVC32r7dxDSf27ky9ORw",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=productid:15708036991109969187,headlineOfferDocid:15708036991109969187,imageDocid:17946204730256840132,pvt:hg&hl=en&gl=us&udm=28",
+    "source": "Spreadshirt.com",
+    "inStock": true,
+    "scrapedAt": "2026-03-14T09:08:52.759Z"
+  },
+  {
+    "id": "serp-53-1773479332759",
+    "name": "Dispatch Game Keychain",
+    "price": 5,
+    "currency": "USD",
+    "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRQrYMBVH4PubOr0Gn8FEblnfffe-pbEpxpKF8qLYk-XiWT4rOi3CiX0R0M-mRfmuJAWOQKHhRBDMyh6akGvojfuii7VsMvpoDxSfjCEsCNmtOyVRFXUk_Osw",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=catalogid:3800602727762489160,headlineOfferDocid:13866263980176095129,imageDocid:15399074775620758411,pvt:hg&hl=en&gl=us&udm=28",
+    "source": "TikTok Shop",
+    "inStock": true,
+    "scrapedAt": "2026-03-14T09:08:52.759Z"
+  },
+  {
+    "id": "serp-28-1773479325951",
+    "name": "Retro Herman Homage Dispatch Waterboy Tee",
+    "price": 5.25,
+    "currency": "USD",
+    "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR0isb0ZEK-NVyOBOg0A_J9bt6-c9lZsB-mB8d6-YoSWyJYc31Zzaw3UYm8aZ5_gbZ29NrSPHykdmJQBARuPP4amhGdWf_WQyCH98tEmKE",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=catalogid:1098544351335807617,headlineOfferDocid:5398330820639246167,imageDocid:14784374398744560805,rds:CID_1098544351335807617|PROD_CID_1098544351335807617,pvt:a&hl=en&gl=us&udm=28",
+    "source": "Etsy - Seller",
+    "inStock": true,
+    "scrapedAt": "2026-03-14T09:08:45.950Z"
+  },
+  {
+    "id": "serp-19-1773479325951",
     "name": "Dispatch Game Cape Logo Superhero Comedy Adhoc Studio T-Shirt Superhero Sticker",
     "price": 5.48,
     "currency": "USD",
     "imageUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQq4NLcSaKDBMIvfhzW5RXaSeQuqr9NPziK8O4s2oP0hVVQRhsC-ZbtU2_njCGZxB36pFkyDPgiI5Gk4DJV8hHRN-tAUrbHfVAH0p7n-sfBOltpveFDrklDLg",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch merchandise&prds=productid:11048505499844105213,headlineOfferDocid:11048505499844105213,imageDocid:5651523585748139968,pvt:a&hl=en&gl=us&udm=28",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=productid:11048505499844105213,headlineOfferDocid:11048505499844105213,imageDocid:5651523585748139968,pvt:a&hl=en&gl=us&udm=28",
     "source": "Redbubble",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:27.211Z"
+    "scrapedAt": "2026-03-14T09:08:45.950Z"
   },
   {
-    "id": "serp-25-1773479067212",
+    "id": "serp-34-1773479325951",
     "name": "Dispatch Game Logo Superhero Comedy Adhoc Studio T-Shirt Superhero Sticker",
     "price": 5.48,
     "currency": "USD",
     "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTCkWz_PnYLcdQ3Ca0E4etV1uFvlAx0VuJAv1YmwoScAenIo9Lgi6XZYx-vEmZGdiHwgXci6tZNPok644JVybWcGas8-iG-0mCBF5onLdUiF0dPgUdonEEbhA",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch merchandise&prds=productid:3970247661909129189,headlineOfferDocid:3970247661909129189,imageDocid:8536838266472653835,pvt:a&hl=en&gl=us&udm=28",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=productid:3970247661909129189,headlineOfferDocid:3970247661909129189,imageDocid:8536838266472653835,pvt:a&hl=en&gl=us&udm=28",
     "source": "Redbubble",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:27.211Z"
+    "scrapedAt": "2026-03-14T09:08:45.950Z"
   },
   {
-    "id": "serp-2-1773479067212",
+    "id": "serp-36-1773479327389",
+    "name": "Z-Team Waterboy Dispatch Game Bracelet",
+    "price": 5.5,
+    "currency": "USD",
+    "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSDUL4KcgYDAaEAJrAQncJ9y51uHxl64hO2f1O47dg8LRTnvQDqQaqBFTEA9IZKAaBq53-4uPLPHhNsyw8c2yh2tI0mU7oZV2si4rKBw5_D",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=catalogid:5041088872818027043,headlineOfferDocid:6451203156182747643,imageDocid:6537815837982920894,rds:CID_5041088872818027043|PROD_CID_5041088872818027043,pvt:hg&hl=en&gl=us&udm=28",
+    "source": "Etsy - Seller",
+    "inStock": true,
+    "scrapedAt": "2026-03-14T09:08:47.389Z"
+  },
+  {
+    "id": "serp-5-1773479325951",
     "name": "Dispatch Video Game Hand Drawn Prism Sticker - Adhoc Studios",
     "price": 5.5,
     "currency": "USD",
     "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRUBfTjvVxVZ6qITS-totTUqfrtOXoevqMCPrAFPUlqHj15fE8eXdC4QnoiNJJD4aLMy2Ap_v_Nz2bs8mZN30oRLqhDe6I-npF2oJ1PUadGvhWI6yIezd8Eoyc",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch merchandise&prds=productid:6925013882354565036,headlineOfferDocid:6925013882354565036,imageDocid:430889548703674683,pvt:a&hl=en&gl=us&udm=28",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=productid:6925013882354565036,headlineOfferDocid:6925013882354565036,imageDocid:430889548703674683,pvt:a&hl=en&gl=us&udm=28",
     "source": "Etsy - Seller",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:27.211Z"
+    "scrapedAt": "2026-03-14T09:08:45.950Z"
   },
   {
-    "id": "serp-31-1773479067212",
+    "id": "serp-24-1773479325951",
     "name": "DISPATCH game vinyl decal car sticker SDN critical role Adhoc superhero fan merch mecha man sonar prism critical role",
     "price": 6,
     "currency": "USD",
     "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQt8wyyrlZJcB80_22sqJdcYrZH54RXvHrrFCJEK9ORfkiaQX9HuXfNR0APoigqkhjXr5ZLaEnXuI2OAyxqY-NhFcBxn-Ubjk58RT2z0Sy_4w5uVJvfbe44WQ",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch merchandise&prds=productid:17795329463625698073,headlineOfferDocid:17795329463625698073,imageDocid:11519828078315408769,rds:LO_17795329463625698073|PROD_LO_17795329463625698073,pvt:a&hl=en&gl=us&udm=28",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=productid:17795329463625698073,headlineOfferDocid:17795329463625698073,imageDocid:11519828078315408769,rds:LO_17795329463625698073|PROD_LO_17795329463625698073,pvt:a&hl=en&gl=us&udm=28",
     "source": "Etsy - Seller",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:27.211Z"
+    "scrapedAt": "2026-03-14T09:08:45.950Z"
   },
   {
-    "id": "serp-30-1773479066350",
-    "name": "Vintage Dispatch Game T-Shirt",
-    "price": 7.49,
-    "currency": "USD",
-    "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ5ZhgO90vXYEtPgkGhcWjlSASHaEuVIUn_jBMiKfubboLDB0LNbzjZqfBFdMk",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch merchandise&prds=catalogid:5957738824756039594,headlineOfferDocid:7245862660551055729,imageDocid:14675355191867945775,pvt:a&hl=en&gl=us&udm=28",
-    "source": "Etsy - Seller",
-    "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:26.349Z"
-  },
-  {
-    "id": "serp-8-1773479066350",
+    "id": "serp-46-1773479332759",
     "name": "Dispatch Game Character Merch Dispatch Game T-shirt",
     "price": 7.9,
     "currency": "USD",
-    "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSbZm40dk05O-ieHMJdrye-o3-VUScCCTOWLrg8wCFLmS8d5932LxOToRYusrRfZanNQ9XTFv4",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch merchandise&prds=productid:18154136437627198797,headlineOfferDocid:18154136437627198797,imageDocid:18221348412808300977,pvt:a&hl=en&gl=us&udm=28",
+    "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRs6Efa4-Anr_xxdjB_EZW9y3Lg88eKNexX7OAK1F9qgMTb_mJ5VO0peFZPEySyfxKrB1JR2qJmOZ2wlwOKuSOC5mtKFBpVDq6Wo9j9-mPJD_qI1iIPv0gA",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=productid:18154136437627198797,headlineOfferDocid:18154136437627198797,imageDocid:18221348412808300977,pvt:hg&hl=en&gl=us&udm=28",
     "source": "eBay - ptolom-66",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:26.349Z"
+    "scrapedAt": "2026-03-14T09:08:52.759Z"
   },
   {
-    "id": "serp-7-1773479066350",
+    "id": "serp-2-1773479327389",
     "name": "Z Team Dispatch Game Keychains",
     "price": 8,
     "currency": "USD",
-    "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTUXFNU924pCQVhSnP5sNPXb7h98mb4UnnbIuuyRiV4cpZpP6EOmTi7Tw6LDsLV00IGFpQWpKM",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch merchandise&prds=catalogid:12720334851963005825,headlineOfferDocid:9121125165897918270,imageDocid:17433503487431148249,pvt:a&hl=en&gl=us&udm=28",
+    "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcROXOdWf-7To6As5o6YgkLvN_8pjQhmF2A0FAdJFb28Uw-wUEt2BwwWJO-u1CbST6rcKA8f4YWUfMsN58M8I_GGXGw5pqkfek27xjRjhegyZa5lqQhILj1F",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=catalogid:12720334851963005825,headlineOfferDocid:9121125165897918270,imageDocid:17433503487431148249,pvt:hg&hl=en&gl=us&udm=28",
     "source": "Comic Sandwiches",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:26.349Z"
+    "scrapedAt": "2026-03-14T09:08:47.389Z"
   },
   {
-    "id": "serp-3-1773479067212",
+    "id": "serp-4-1773479325951",
     "name": "Adhoc Dispatch Coupe & Punch Up Poster Home Decor, Wall Art, Fan Gift",
     "price": 9.99,
     "currency": "USD",
     "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSeMH136vg4ji5L-GkUVZ8I_1m1oliEt3uxZLYST6YV9-NjJDE8HAinvYHxVwTqlo9gs699skAg8ilGWYLP_Y7IZZUhJturUj3ETRSFjzY",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch merchandise&prds=productid:12377790541746247049,headlineOfferDocid:12377790541746247049,imageDocid:17141473056807600678,pvt:a&hl=en&gl=us&udm=28",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=productid:12377790541746247049,headlineOfferDocid:12377790541746247049,imageDocid:17141473056807600678,pvt:a&hl=en&gl=us&udm=28",
     "source": "eBay - gan_8777",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:27.211Z"
+    "scrapedAt": "2026-03-14T09:08:45.950Z"
   },
   {
-    "id": "serp-26-1773479066350",
-    "name": "Dispatch Waterboy Bootleg Unisex T-shirt, Merch Dispatch Game Shirt, Game Shirt, Clothing Unisex Tee, Y2k Tee, Gaming Apparel",
-    "price": 10.4,
-    "currency": "USD",
-    "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSGkDCoYVBYXyTg5DoRUl-eZaqI7sPufU8fu_rESN5UfcNCwF4",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch merchandise&prds=productid:357071583129161786,headlineOfferDocid:357071583129161786,imageDocid:6559899068932588615,pvt:a&hl=en&gl=us&udm=28",
-    "source": "Etsy",
-    "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:26.349Z"
-  },
-  {
-    "id": "serp-24-1773479066350",
-    "name": "Dispatch Game T-Shirt, Flambae Character Tee, Lance Cantstopolis Shirt, Fahim Anwar Voice Actor, Fire Superhero Merch, AdHoc Studio Fan Gift",
-    "price": 12,
-    "currency": "USD",
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQ8VFTaQ74D6RqXuq9MwRbl6n3-sR797BBKKufYYSlZO0mcBJjbZYbmewUiAlFBtB8DXXRJVEU",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch merchandise&prds=productid:9617843342634918039,headlineOfferDocid:9617843342634918039,imageDocid:16205783461706950516,pvt:a&hl=en&gl=us&udm=28",
-    "source": "Etsy",
-    "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:26.349Z"
-  },
-  {
-    "id": "serp-26-1773479067212",
+    "id": "serp-26-1773479325951",
     "name": "Dispatch Game T-Shirt, Flambae Character Tee, Lance Cantstopolis Shirt, Fahim Anwar Voice Actor, Fire Superhero Merch, AdHoc Studio Fan Gift",
     "price": 12,
     "currency": "USD",
     "imageUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSKnYsb7Oxk4lv5QFkJeFYTEJDTSBH8oA2BwBnDkBy5x8w0vmoS2Ajbo2mbtsTmYJtm3V3jCV_rNDxqUDWzOig5R7l2bGrEpB307Di_8yFWeY6Md9RqA5n5",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch merchandise&prds=productid:9617843342634918039,headlineOfferDocid:9617843342634918039,imageDocid:16205783461706950516,pvt:a&hl=en&gl=us&udm=28",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=productid:9617843342634918039,headlineOfferDocid:9617843342634918039,imageDocid:16205783461706950516,pvt:a&hl=en&gl=us&udm=28",
     "source": "Etsy",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:27.211Z"
+    "scrapedAt": "2026-03-14T09:08:45.950Z"
   },
   {
-    "id": "serp-19-1773479067212",
+    "id": "serp-14-1773479327389",
+    "name": "Dispatch (video Game) : Sdn Office Coffee Mug Replica, Game Cosplay",
+    "price": 12.98,
+    "currency": "USD",
+    "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQiikw6m6rFpRKlzJ-W73qWvo5LMw5YilfbLBRmhr-HLY-jgpXI0epGvMu_wcS_31-5oVnkDEMVHOPf47VFFeVmS7ELn7NxUCnBwJNtDDacswYhOJYISu9g7fE",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=productid:3057148029784645205,headlineOfferDocid:3057148029784645205,imageDocid:2048928132323475825,pvt:hg&hl=en&gl=us&udm=28",
+    "source": "eBay - cha8901",
+    "inStock": true,
+    "scrapedAt": "2026-03-14T09:08:47.389Z"
+  },
+  {
+    "id": "serp-19-1773479327389",
     "name": "Waterboy Flambae and Prism Acrylic Keychain",
     "price": 14,
     "currency": "USD",
     "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSCvyuzXibxuo_c4AQYC68uZIqFapMpO1VDRMZPo-Dp6P_Wkt4CIeBSF-g-df5AKyjxV36NYMT4x7v_r-UZM9Hq_ffP6US2myTrYr7_XofrmGeVEruUxXlXjPA",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch merchandise&prds=catalogid:11815288468201699929,headlineOfferDocid:15223072418893639803,imageDocid:13327313942488858477,rds:CID_11815288468201699929|PROD_CID_11815288468201699929,pvt:a&hl=en&gl=us&udm=28",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=catalogid:11815288468201699929,headlineOfferDocid:15223072418893639803,imageDocid:13327313942488858477,rds:CID_11815288468201699929|PROD_CID_11815288468201699929,pvt:hg&hl=en&gl=us&udm=28",
     "source": "Etsy - Seller",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:27.211Z"
+    "scrapedAt": "2026-03-14T09:08:47.389Z"
   },
   {
-    "id": "serp-39-1773479066350",
-    "name": "DISPATCH 3D Cape Standee - SDN's Hero Emblem Collectible Memorabilia",
-    "price": 14.38,
+    "id": "serp-39-1773479333993",
+    "name": "Waterboy Flambae and Prism Acrylic Keychain",
+    "price": 14,
     "currency": "USD",
-    "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcR_FppPGdbnp6-hOduCdZSgwOGTbjYYvmTKfNHTcNWF3wASF6qecZNZpt-GlTGvKQu1880NOUo",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch merchandise&prds=productid:3158074635789740905,headlineOfferDocid:3158074635789740905,imageDocid:2985074035928769607,pvt:a&hl=en&gl=us&udm=28",
+    "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSCvyuzXibxuo_c4AQYC68uZIqFapMpO1VDRMZPo-Dp6P_Wkt4CIeBSF-g-df5AKyjxV36NYMT4x7v_r-UZM9Hq_ffP6US2myTrYr7_XofrmGeVEruUxXlXjPA",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=catalogid:11815288468201699929,headlineOfferDocid:15223072418893639803,imageDocid:13327313942488858477,rds:CID_11815288468201699929|PROD_CID_11815288468201699929,pvt:a&hl=en&gl=us&udm=28",
     "source": "Etsy - Seller",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:26.349Z"
+    "scrapedAt": "2026-03-14T09:08:53.993Z"
   },
   {
-    "id": "serp-29-1773479067212",
+    "id": "serp-86-1773479338290",
+    "name": "Dispatch Socks",
+    "price": 14,
+    "currency": "USD",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRh0NQPtTtZnilPta8DNcvSo8xwQU61lpNhiFC_56UEaebQFUkRmJU-R2XZ2gW672WB-s_C3EvBEmO-F8jodjKRH-B4cHRT",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=catalogid:7144070756063849588,headlineOfferDocid:7874711717780107597,imageDocid:14949855448559127512,pvt:a&hl=en&gl=us&udm=28",
+    "source": "TeePublic",
+    "inStock": true,
+    "scrapedAt": "2026-03-14T09:08:58.290Z"
+  },
+  {
+    "id": "serp-64-1773479332759",
     "name": "Dispatch Robert T-Shirt",
     "price": 14.68,
     "currency": "USD",
     "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRG3GzxTeSB4MEDfOfaQUY8dlRy1Fns2_xlf4fPN1jDgPQObK4-GQt0Fc-HsxW3HwV-U20dJQmiRqMemgTdfiQp0FxJzwSKRAchwcJHZ2vebABT5dtRYvJ8Nw",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch merchandise&prds=catalogid:469252548318456024,headlineOfferDocid:10957026399142708039,imageDocid:11657974719958553377,rds:CID_469252548318456024|PROD_CID_469252548318456024,pvt:a&hl=en&gl=us&udm=28",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=catalogid:469252548318456024,headlineOfferDocid:10957026399142708039,imageDocid:11657974719958553377,rds:CID_469252548318456024|PROD_CID_469252548318456024,pvt:hg&hl=en&gl=us&udm=28",
     "source": "Etsy - Seller",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:27.211Z"
+    "scrapedAt": "2026-03-14T09:08:52.759Z"
   },
   {
-    "id": "serp-13-1773479067212",
+    "id": "serp-33-1773479325951",
+    "name": "Dispatch Robert T-Shirt",
+    "price": 14.68,
+    "currency": "USD",
+    "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRG3GzxTeSB4MEDfOfaQUY8dlRy1Fns2_xlf4fPN1jDgPQObK4-GQt0Fc-HsxW3HwV-U20dJQmiRqMemgTdfiQp0FxJzwSKRAchwcJHZ2vebABT5dtRYvJ8Nw",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=catalogid:469252548318456024,headlineOfferDocid:10957026399142708039,imageDocid:11657974719958553377,rds:CID_469252548318456024|PROD_CID_469252548318456024,pvt:a&hl=en&gl=us&udm=28",
+    "source": "Etsy - Seller",
+    "inStock": true,
+    "scrapedAt": "2026-03-14T09:08:45.950Z"
+  },
+  {
+    "id": "serp-59-1773479330593",
+    "name": "Dispatch Sdn Mug – Sdn Game Coffee Cup",
+    "price": 14.98,
+    "currency": "USD",
+    "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRn8jwYfowqDtsXaf2vo9Hll5Lhn0mfiaWlG4AYazLga_-9bmHgcOkbA09NUX1OQkUZjxVYJ1PkcLsiL3viVM05muGh96Ym6wichBroJAAprIzdzYEJGQRQeA",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=productid:15536808430099909658,headlineOfferDocid:15536808430099909658,imageDocid:13377122597412162817,pvt:hg&hl=en&gl=us&udm=28",
+    "source": "eBay",
+    "inStock": true,
+    "scrapedAt": "2026-03-14T09:08:50.593Z"
+  },
+  {
+    "id": "serp-33-1773479330593",
     "name": "Dispatch (video game): SDN Office Coffee Mug Replica",
     "price": 15,
     "currency": "USD",
     "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQPURBPYEMR2dROKsZUeE2Y1eWSq2g4nIhCPdPPOe39yLOPFHRoeZk42rNUKmPbeNRcMvFy_tCsiS0R0ZgfgCg4GLJu5DGSZthjOg78rJLBuUQpZ57Di4KnbQ",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch merchandise&prds=productid:5009484399072290494,headlineOfferDocid:5009484399072290494,imageDocid:3136341281289231361,rds:LO_5009484399072290494|PROD_LO_5009484399072290494,pvt:a&hl=en&gl=us&udm=28",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=productid:5009484399072290494,headlineOfferDocid:5009484399072290494,imageDocid:3136341281289231361,rds:LO_5009484399072290494|PROD_LO_5009484399072290494,pvt:hg&hl=en&gl=us&udm=28",
     "source": "Etsy - Seller",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:27.211Z"
+    "scrapedAt": "2026-03-14T09:08:50.593Z"
   },
   {
-    "id": "serp-24-1773479067212",
-    "name": "Dispatch Tank Top",
-    "price": 15,
+    "id": "serp-34-1773479327389",
+    "name": "Flambae Dispatch Gaming Mug – Retro Videogame Bootleg Style Coffee Cup",
+    "price": 15.98,
     "currency": "USD",
-    "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT4ynt3puRj9gMWjALwYg9aoZ6fo5jzrC5-q8UBa3gz8inO3uBl5GWBC9Kh0GKFAIvSos22gywXn3Aqp_SG7ZB6prUt8tZJ-Q",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch merchandise&prds=catalogid:9077162205461830598,headlineOfferDocid:11020919442931552106,imageDocid:11787387037739188531,gpcid:3844483181371777298,pvt:a&hl=en&gl=us&udm=28",
-    "source": "TeePublic",
+    "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQQ2UHvSlFJRr1qTGG9qM5K2TrQg53brTXNvvEc65hl7feIhggHBH2TilLiJ9V-w2Ibdua3TR23vS6i9Ss6zD1oPBcblKg9PWnuYDIB9-3VH97uT86BmzpjIg",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=productid:1588923624267231066,headlineOfferDocid:1588923624267231066,imageDocid:9122285568878383922,pvt:hg&hl=en&gl=us&udm=28",
+    "source": "eBay",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:27.211Z"
+    "scrapedAt": "2026-03-14T09:08:47.389Z"
   },
   {
-    "id": "serp-1-1773479066350",
-    "name": "Kids Dispatch Game T-Shirt",
-    "price": 16,
-    "currency": "USD",
-    "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQL0coHZ8wQp6ogva-IOQuc4jCf4CeXQkY9pBsrL3jZHRVfGkbp",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch merchandise&prds=catalogid:9627484964730167294,headlineOfferDocid:5713189534578103600,imageDocid:4214571868415402847,gpcid:16588806133142407853,mid:576462881107803971,pvt:a&hl=en&gl=us&udm=28",
-    "source": "TeePublic",
-    "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:26.349Z"
-  },
-  {
-    "id": "serp-5-1773479066350",
-    "name": "DISPATCH GAME T-Shirt",
-    "price": 16,
-    "currency": "USD",
-    "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTLMuQVpJImsN_gREeP9YtbMGW0sQqFyyCrSaw4E7E7ib07osY",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch merchandise&prds=productid:16774214102005779170,headlineOfferDocid:16774214102005779170,imageDocid:7369445124620714573,pvt:a&hl=en&gl=us&udm=28",
-    "source": "teepublic.com",
-    "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:26.349Z"
-  },
-  {
-    "id": "serp-9-1773479066350",
-    "name": "Dispatch Game T-Shirt",
-    "price": 16,
-    "currency": "USD",
-    "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ2qJQQzdzjKkI3fq5tAUhIfaZxx5DbzsYPTqSo0gyXxHW1fVk",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch merchandise&prds=catalogid:11322797580604238719,headlineOfferDocid:13938275810142978527,imageDocid:14801873441412034530,gpcid:15590089029359551997,mid:576462879837111912,pvt:a&hl=en&gl=us&udm=28",
-    "source": "TeePublic",
-    "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:26.349Z"
-  },
-  {
-    "id": "serp-14-1773479066350",
-    "name": "Dispatch Game Collage T-Shirt",
-    "price": 16,
-    "currency": "USD",
-    "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQpR74YW4wc3fUl4M_nwIgBjQ1VWd8Bu01s1qjH_L2j96FJa8JC",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch merchandise&prds=catalogid:16020930452419286376,headlineOfferDocid:15013294051961336246,imageDocid:8130119189391428570,pvt:a&hl=en&gl=us&udm=28",
-    "source": "TeePublic",
-    "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:26.349Z"
-  },
-  {
-    "id": "serp-19-1773479066350",
-    "name": "Invisimech Dispatch Game T-Shirt",
-    "price": 16,
-    "currency": "USD",
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTqSG2ruggybR1m2ASgA9fgLw6WLWwT-z9ihVCJ1vooFNuW4GOd",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch merchandise&prds=catalogid:1842356705761693292,headlineOfferDocid:9249748436401326643,imageDocid:16539523256509474776,pvt:a&hl=en&gl=us&udm=28",
-    "source": "TeePublic",
-    "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:26.349Z"
-  },
-  {
-    "id": "serp-27-1773479066350",
-    "name": "Dispatch Game Character Collage T-Shirt",
-    "price": 16,
-    "currency": "USD",
-    "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcT8YD-1YhBFVh_f6N41f0HN9K3KAmKn_QuaOrWjG_j7KyuRynqC",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch merchandise&prds=productid:10758176628732635711,headlineOfferDocid:10758176628732635711,imageDocid:11490674675172975922,pvt:a&hl=en&gl=us&udm=28",
-    "source": "teepublic.com",
-    "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:26.349Z"
-  },
-  {
-    "id": "serp-38-1773479066350",
-    "name": "Dispatch Game Robert Robertson (Mecha Man) T-Shirt",
-    "price": 16,
-    "currency": "USD",
-    "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSx_-ozOgPZdSMkV5zv6RT3ChXkXqKO6q991dW9_gstC5s92Uw",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch merchandise&prds=productid:7931445138505691663,headlineOfferDocid:7931445138505691663,imageDocid:2819091879038009247,pvt:a&hl=en&gl=us&udm=28",
-    "source": "teepublic.com",
-    "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:26.349Z"
-  },
-  {
-    "id": "serp-9-1773479067212",
-    "name": "Dispatch T-Shirt",
-    "price": 16,
-    "currency": "USD",
-    "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcS4lUQli_Ac5x1nZLk4iLIqiAIiMPiq5Z-VW0XZBQliyXSoyKXDsPAcD8jsihFkkO3sz7xrJ3u-JA3JCE9P1QoxNboW1pKh",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch merchandise&prds=catalogid:9393228156266661324,headlineOfferDocid:6389642384093634003,imageDocid:13013958419884302710,pvt:a&hl=en&gl=us&udm=28",
-    "source": "TeePublic",
-    "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:27.211Z"
-  },
-  {
-    "id": "serp-32-1773479067212",
+    "id": "serp-0-1773479327389",
     "name": "Dispatch Game T-Shirt",
     "price": 16,
     "currency": "USD",
     "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTJVd3aII5VBW2bYsusmMwqYIDSBonrMMuFb3mnd5MsbO6NTPEUnq02IEF_c4FYahexaOuZI0xiHZY69ZNP_fxkeU_SblhP_Q",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch merchandise&prds=catalogid:3107104855736231306,headlineOfferDocid:4959533763232375534,imageDocid:9101425469780378818,gpcid:15590089029359551997,mid:576462879837111912,pvt:a&hl=en&gl=us&udm=28",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=catalogid:3107104855736231306,headlineOfferDocid:4959533763232375534,imageDocid:9101425469780378818,gpcid:15590089029359551997,mid:576462879837111912,pvt:hg&hl=en&gl=us&udm=28",
     "source": "TeePublic",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:27.211Z"
+    "scrapedAt": "2026-03-14T09:08:47.389Z"
   },
   {
-    "id": "serp-28-1773479067212",
+    "id": "serp-6-1773479327389",
+    "name": "Kids Dispatch Game T-Shirt",
+    "price": 16,
+    "currency": "USD",
+    "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQi31E_-_0PTaHY_fXvz8nPgxjPXQYkTgGXh84zim2WHlTCHmV-IBc2S3MmAA8Zb6pMdabh-530cLQecgsBz-9tfiAeRVZXJA",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=catalogid:9627484964730167294,headlineOfferDocid:5713189534578103600,imageDocid:4214571868415402847,gpcid:16588806133142407853,mid:576462881107803971,pvt:hg&hl=en&gl=us&udm=28",
+    "source": "TeePublic",
+    "inStock": true,
+    "scrapedAt": "2026-03-14T09:08:47.389Z"
+  },
+  {
+    "id": "serp-12-1773479327389",
+    "name": "Vintage Dispatch Game T-Shirt",
+    "price": 16,
+    "currency": "USD",
+    "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcScADKYw8gMgCzfepVAeqTLSt0mQCGFN2fXcN5-z-c57ai03VTCsUVHZ1zFyAdFR_83VEZ8va-TWee6fKW8colyebu3UpCS",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=catalogid:13860897415976071320,headlineOfferDocid:6799013118056777014,imageDocid:15993714111781488658,pvt:hg&hl=en&gl=us&udm=28",
+    "source": "TeePublic",
+    "inStock": true,
+    "scrapedAt": "2026-03-14T09:08:47.389Z"
+  },
+  {
+    "id": "serp-27-1773479327389",
+    "name": "Dispatch Game Z-Team Robert Handmade Acrylic Standee (5.12\") - Superhero Fan Gift",
+    "price": 16,
+    "currency": "USD",
+    "imageUrl": "https://serpapi.com/searches/69b5259eb6a8670f41ae649f/images/DBhhhIv-y2tzodSb6nwHpY-d85CWzJ2pVR6ANtKm7SY.webp",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=productid:1569140778722629644,headlineOfferDocid:1569140778722629644,imageDocid:18185602981899881236,rds:LO_1569140778722629644|PROD_LO_1569140778722629644,pvt:hg&hl=en&gl=us&udm=28",
+    "source": "Etsy - Seller",
+    "inStock": true,
+    "scrapedAt": "2026-03-14T09:08:47.389Z"
+  },
+  {
+    "id": "serp-35-1773479327389",
+    "name": "Dispatch Game Collage T-Shirt",
+    "price": 16,
+    "currency": "USD",
+    "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQxycsGh3svf06M8hfPFsIWWmb9LonY0kSxOpifHIX5435lywfvP8w6gQeoRtNtFNyz9souZQfpbO5Z36iEENT72YjBkJmDIQ",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=catalogid:16020930452419286376,headlineOfferDocid:15013294051961336246,imageDocid:8130119189391428570,pvt:hg&hl=en&gl=us&udm=28",
+    "source": "TeePublic",
+    "inStock": true,
+    "scrapedAt": "2026-03-14T09:08:47.389Z"
+  },
+  {
+    "id": "serp-38-1773479327389",
+    "name": "Dispatch Game Character Collage T-Shirt",
+    "price": 16,
+    "currency": "USD",
+    "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQuUygitdBd2ca7IuotcpSqrRzlKQKcdUILnYA1_mXRLnFh3oRhmLO_WZaFFeaQgvMuolTO56hRsyUn6q5PmxYTW7VJKEFp",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=catalogid:12204145417171142205,headlineOfferDocid:18352104653549440454,imageDocid:4673626974697707637,pvt:hg&hl=en&gl=us&udm=28",
+    "source": "TeePublic",
+    "inStock": true,
+    "scrapedAt": "2026-03-14T09:08:47.389Z"
+  },
+  {
+    "id": "serp-58-1773479332759",
+    "name": "Dispatch Game Collage T-Shirt",
+    "price": 16,
+    "currency": "USD",
+    "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTzNsca6sH7T067_QbUfzG5RnjB5U3OnEHA3Uwp4bRzdtFhfX9IsOY8rHaeaPueGIbMkEjphhkfhtrvlzx3ckkEWN4lk6kD",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=catalogid:16989293290872360294,headlineOfferDocid:18054725272972311250,imageDocid:2094806431006324970,pvt:hg&hl=en&gl=us&udm=28",
+    "source": "TeePublic",
+    "inStock": true,
+    "scrapedAt": "2026-03-14T09:08:52.759Z"
+  },
+  {
+    "id": "serp-65-1773479332759",
+    "name": "DISPATCH GAME T-Shirt",
+    "price": 16,
+    "currency": "USD",
+    "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcThmo0IQ9jOWhE8dZKGvuIX-VFyVze3G_pKylPYK619MeRQkpFkrF_DIImrK50xKHU9Conip8LyLZaeYn6dVhF7gVoclMrV",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=productid:16774214102005779170,headlineOfferDocid:16774214102005779170,imageDocid:7369445124620714573,pvt:hg&hl=en&gl=us&udm=28",
+    "source": "teepublic.com",
+    "inStock": true,
+    "scrapedAt": "2026-03-14T09:08:52.759Z"
+  },
+  {
+    "id": "serp-13-1773479325951",
+    "name": "Dispatch T-Shirt",
+    "price": 16,
+    "currency": "USD",
+    "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcS4lUQli_Ac5x1nZLk4iLIqiAIiMPiq5Z-VW0XZBQliyXSoyKXDsPAcD8jsihFkkO3sz7xrJ3u-JA3JCE9P1QoxNboW1pKh",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=catalogid:9393228156266661324,headlineOfferDocid:6389642384093634003,imageDocid:13013958419884302710,pvt:a&hl=en&gl=us&udm=28",
+    "source": "TeePublic",
+    "inStock": true,
+    "scrapedAt": "2026-03-14T09:08:45.950Z"
+  },
+  {
+    "id": "serp-30-1773479325951",
+    "name": "Dispatch Game T-Shirt",
+    "price": 16,
+    "currency": "USD",
+    "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTJVd3aII5VBW2bYsusmMwqYIDSBonrMMuFb3mnd5MsbO6NTPEUnq02IEF_c4FYahexaOuZI0xiHZY69ZNP_fxkeU_SblhP_Q",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=catalogid:3107104855736231306,headlineOfferDocid:4959533763232375534,imageDocid:9101425469780378818,gpcid:15590089029359551997,mid:576462879837111912,pvt:a&hl=en&gl=us&udm=28",
+    "source": "TeePublic",
+    "inStock": true,
+    "scrapedAt": "2026-03-14T09:08:45.950Z"
+  },
+  {
+    "id": "serp-27-1773479325951",
     "name": "Dispatch Game Cape Logo Superhero Comedy Adhoc Studio T-Shirt Superhero Spiral Notebook",
     "price": 16.48,
     "currency": "USD",
     "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTXJp0_E3JNR0mG4yb1en-dzxfwMmm0YE0lFN0TIqqqlhv2AhH9E_e8UieF97a12q4tSMLi9T747PyPokCyoUrevxWhGHZBBBVFPoZuONW0tvoNaYMHcuPopkQ",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch merchandise&prds=productid:7645720847815734435,headlineOfferDocid:7645720847815734435,imageDocid:12801114692427765482,pvt:a&hl=en&gl=us&udm=28",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=productid:7645720847815734435,headlineOfferDocid:7645720847815734435,imageDocid:12801114692427765482,pvt:a&hl=en&gl=us&udm=28",
     "source": "Redbubble",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:27.211Z"
+    "scrapedAt": "2026-03-14T09:08:45.950Z"
   },
   {
-    "id": "serp-8-1773479067212",
+    "id": "serp-25-1773479327389",
+    "name": "Dispatch Game SDN Replica Mug",
+    "price": 16.65,
+    "currency": "USD",
+    "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQKkbd_ILZgVDVcTyuXj_w1mIl2KYqdom--KDOQmn5vUJf8Dhn7p0tVWNqTHnthbncK2F0kpWQXwRHf_3NWqiKhpuCkPWdds1HQYmzOszg",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=productid:8256845102667960960,headlineOfferDocid:8256845102667960960,imageDocid:12563187050530610871,rds:LO_8256845102667960960|PROD_LO_8256845102667960960,pvt:hg&hl=en&gl=us&udm=28",
+    "source": "Etsy - Seller",
+    "inStock": true,
+    "scrapedAt": "2026-03-14T09:08:47.389Z"
+  },
+  {
+    "id": "serp-10-1773479325951",
     "name": "Adhoc Dispatch Issue 1A Poster Home Decor, Wall Art, Fan Gift",
     "price": 16.99,
     "currency": "USD",
     "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSpOwZDuBAYl3PEAlIByoI5J_qZW4oZZzpjzNBPFgha5idFgreJpVAfzlhx5Q_zWeyvFNH-kApPW8XZvuLjAsh-b2lOrpp9Z5CuK0jM5umd",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch merchandise&prds=productid:14787539457933073939,headlineOfferDocid:14787539457933073939,imageDocid:14242278243220991885,pvt:a&hl=en&gl=us&udm=28",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=productid:14787539457933073939,headlineOfferDocid:14787539457933073939,imageDocid:14242278243220991885,pvt:a&hl=en&gl=us&udm=28",
     "source": "eBay - gan_8777",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:27.211Z"
+    "scrapedAt": "2026-03-14T09:08:45.950Z"
   },
   {
-    "id": "serp-35-1773479066350",
+    "id": "serp-17-1773479327389",
     "name": "Dispatch Game Long Sleeve T-Shirt",
     "price": 17,
     "currency": "USD",
-    "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTVwwOC8REvsdz4tsIcGm48P8B1mBZ2mCA1sHu5GPBYe_28FzHb",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch merchandise&prds=catalogid:10090801337321687903,headlineOfferDocid:13870875250023329637,imageDocid:7770250130515957259,pvt:a&hl=en&gl=us&udm=28",
+    "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTo4UM1n8aLuStyh2KUTezQoRAC_JFRWNOChPS-p9AtVDKoLFYxBJTHye3egskHjU7e2HTDIxt1lPMbe6ICN-oGftGeO-orCA",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=catalogid:10090801337321687903,headlineOfferDocid:13870875250023329637,imageDocid:7770250130515957259,pvt:hg&hl=en&gl=us&udm=28",
     "source": "TeePublic",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:26.349Z"
+    "scrapedAt": "2026-03-14T09:08:47.389Z"
   },
   {
-    "id": "serp-0-1773479066350",
+    "id": "serp-31-1773479327389",
+    "name": "Vintage Dispatch Game Long Sleeve T-Shirt",
+    "price": 17,
+    "currency": "USD",
+    "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSiRx6fVD2_8v7ockmNpx0CLKjQcqrEcVTM6gkqdD1iW0a3vUPcm3wTxe2LPUyvYA4EVJ0g3q3U4PAFsU8QY3VPy6myxklT",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=catalogid:14912534927271952362,headlineOfferDocid:7347442473687803039,imageDocid:2824528240410788671,pvt:hg&hl=en&gl=us&udm=28",
+    "source": "TeePublic",
+    "inStock": true,
+    "scrapedAt": "2026-03-14T09:08:47.389Z"
+  },
+  {
+    "id": "serp-30-1773479327389",
+    "name": "Dispatch SDN mug, SDN Dispatch Game mug, SDN mug",
+    "price": 17.43,
+    "currency": "USD",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSS1yfnDJ7eqOUg7sHoQdt_m0vlzei5Msg0S85QInC2zKVjZ2_5u7KpuWNwhEByunD4Qj0_gzQ7NCBaR-oSA6xxMizz58yoX7PybmtQ477ps1g-J84Tp9CCdcl5",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=productid:13179062243516047147,headlineOfferDocid:13179062243516047147,imageDocid:12522639183469559992,rds:LO_13179062243516047147|PROD_LO_13179062243516047147,pvt:hg&hl=en&gl=us&udm=28",
+    "source": "Etsy - Ashtrayss",
+    "inStock": true,
+    "scrapedAt": "2026-03-14T09:08:47.389Z"
+  },
+  {
+    "id": "serp-9-1773479327389",
     "name": "Dispatch Video Game T-shirt",
     "price": 17.99,
     "currency": "USD",
-    "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSFYBWMyn3DM7-1ptA0fRJoI_iWzU-RGEsA8t5ZnavwCIA5VGtE_eAkgg_TrA",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch merchandise&prds=productid:8139238964799236893,headlineOfferDocid:8139238964799236893,imageDocid:10997486077520103530,pvt:a&hl=en&gl=us&udm=28",
+    "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcT3qwxUH581y3TwH4hZKpzhhp9d3hyP-g2o6oH7sGgczoO8afHngi83xp7_kpjJOXh1Loo9oC-9Ed_P9hIxWI8JqExFm9LNEVdlVdt6cmI",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=productid:8139238964799236893,headlineOfferDocid:8139238964799236893,imageDocid:10997486077520103530,pvt:hg&hl=en&gl=us&udm=28",
     "source": "eBay - 918jenk82",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:26.349Z"
+    "scrapedAt": "2026-03-14T09:08:47.389Z"
   },
   {
-    "id": "serp-11-1773479066350",
+    "id": "serp-29-1773479327389",
     "name": "Dispatch Video Game Collage Design T-shirt",
     "price": 17.99,
     "currency": "USD",
-    "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRoVurRHWNmiMg3VwjZoCWAxChx7nHOtgPQ2jLqSeDSv7v5KOZAfhSn8Gn7leQ",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch merchandise&prds=productid:5461285089486405990,headlineOfferDocid:5461285089486405990,imageDocid:9798282204511343959,pvt:a&hl=en&gl=us&udm=28",
+    "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSzzEn7looJJwJceBhojTx3U51gUmNlqc_pcWHyyJ2v2GitLl1ri5cDyaevDh8NhRBUxWVsS_YnQKe048eNYmrprevZtQiufzzf6ZpdmFIf",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=productid:5461285089486405990,headlineOfferDocid:5461285089486405990,imageDocid:9798282204511343959,pvt:hg&hl=en&gl=us&udm=28",
     "source": "eBay - 918jenk82",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:26.349Z"
+    "scrapedAt": "2026-03-14T09:08:47.389Z"
   },
   {
-    "id": "serp-11-1773479067212",
+    "id": "serp-12-1773479325951",
     "name": "Dispatch Game Logo Superhero Comedy AdHoc Studio T-Shirt Essential T-Shirt",
     "price": 17.99,
     "currency": "USD",
     "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRfo0CDCIErxOvCxlsXjR_nkmraON-C0peq540C5jnQheh1965KZdik1tBi0UrubH0pAOQ0n-O1NcV04fyy5JycKpcx7XMaWfEYzoXMtz06fELFGKTpEYRM",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch merchandise&prds=productid:7655347312822879770,headlineOfferDocid:7655347312822879770,imageDocid:1667715782272788059,pvt:a&hl=en&gl=us&udm=28",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=productid:7655347312822879770,headlineOfferDocid:7655347312822879770,imageDocid:1667715782272788059,pvt:a&hl=en&gl=us&udm=28",
     "source": "redbubble.com",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:27.211Z"
+    "scrapedAt": "2026-03-14T09:08:45.950Z"
   },
   {
-    "id": "serp-12-1773479067212",
+    "id": "serp-15-1773479325951",
     "name": "Dispatch 2026 Merch T-shirt Reprint Size S-5xl For Fanss",
     "price": 17.99,
     "currency": "USD",
     "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTckndPjVEPU_rAvgz-IS0zDrpjpVs7iFvMWqj-1DDmWnrOtDFTeFPQXulHgeMc77H_jHGpPJrVpTqVXwhhIzhyNu-ZcW-41insjgxhmLQ",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch merchandise&prds=productid:2379112914371492010,headlineOfferDocid:2379112914371492010,imageDocid:16041486271412509071,pvt:a&hl=en&gl=us&udm=28",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=productid:2379112914371492010,headlineOfferDocid:2379112914371492010,imageDocid:16041486271412509071,pvt:a&hl=en&gl=us&udm=28",
     "source": "eBay - isipii_0",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:27.211Z"
+    "scrapedAt": "2026-03-14T09:08:45.950Z"
   },
   {
-    "id": "serp-16-1773479067212",
-    "name": "Dispatch Send It | Soft Poly/cotton Unisex Tee | Black | Small",
+    "id": "serp-20-1773479325951",
+    "name": "Dispatch Send It | Soft Poly/cotton Unisex Tee | Black | Medium",
     "price": 18,
     "currency": "USD",
     "imageUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRMo5FyJdWofNIhcSU-QO8KYZJJtyvUwiuWmgHRXdmBxG4ijObRHAuvQJqkspDTwdfQ5ZnDgvwnL1k0etuOwkoB6VLKTy-ByLjr-XlKzLZxFsS-Ipf5i0qA",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch merchandise&prds=productid:14626812965712132184,headlineOfferDocid:14626812965712132184,imageDocid:14296145773976104780,pvt:a&hl=en&gl=us&udm=28",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=productid:4390853274231158313,headlineOfferDocid:4390853274231158313,imageDocid:14296145773976104780,pvt:a&hl=en&gl=us&udm=28",
     "source": "eBay",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:27.211Z"
+    "scrapedAt": "2026-03-14T09:08:45.950Z"
   },
   {
-    "id": "serp-10-1773479066350",
+    "id": "serp-3-1773479327389",
+    "name": "Dispatch (video game) Coffee Mug Replica",
+    "price": 18.23,
+    "currency": "USD",
+    "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTp5TcuiT0B3A6iSutDTsLLDgqb7ORzE7G5m7IpQvxWqtYna57_sAzvOkFOMxfvvRTEGDaQ8IGSapZRE-4Yw9u3JhuDZuJ4tT_DhvgoCSE-dZiGQ6LLr6Sd3w",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=productid:2744430852845152085,headlineOfferDocid:2744430852845152085,imageDocid:13436454790366654291,pvt:hg&hl=en&gl=us&udm=28",
+    "source": "eBay - skibatt_0",
+    "inStock": true,
+    "scrapedAt": "2026-03-14T09:08:47.389Z"
+  },
+  {
+    "id": "serp-16-1773479327389",
     "name": "Z-Team Phoenix Dispatch Mugshot T-Shirt",
     "price": 18.38,
     "currency": "USD",
-    "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSWh0GPk3DN1Z1ZFmFE-Flbr-PGqAEeIop5Tsh5-pJf8q3hRp6xFELDm34mf9s",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch merchandise&prds=catalogid:6227028437527123978,headlineOfferDocid:1748647948757341197,imageDocid:10327239583623994529,rds:CID_6227028437527123978|PROD_CID_6227028437527123978,pvt:a&hl=en&gl=us&udm=28",
+    "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQXBeEqNUzIQmcww8ezQcQomlB9LMU1zWzAFHadB9HsMg7uoBTI1QdkQObDiBg42Jfw6piWK6Lfv7FL3JR7KP-YyhR_zhbWMM9KvQhsiL07",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=catalogid:6227028437527123978,headlineOfferDocid:1748647948757341197,imageDocid:10327239583623994529,rds:CID_6227028437527123978|PROD_CID_6227028437527123978,pvt:hg&hl=en&gl=us&udm=28",
     "source": "Etsy - Seller",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:26.349Z"
+    "scrapedAt": "2026-03-14T09:08:47.389Z"
   },
   {
-    "id": "serp-3-1773479066350",
+    "id": "serp-4-1773479327389",
     "name": "Dispatch Game Sdn Office Right Shirt",
     "price": 19.12,
     "currency": "USD",
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSu44bTW4wuQLU2KK8jNHLyCfTkPA2B22bUUL3Q44JkFxxCMJJ4Y-meqtVO5rUBGUbikFrkFyVF3g",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch merchandise&prds=catalogid:1567864313674274997,headlineOfferDocid:6754003340894300963,imageDocid:278300868543603660,rds:PC_3507495238053739665|PROD_PC_3507495238053739665,gpcid:3507495238053739665,mid:576462525211632408,pvt:a&hl=en&gl=us&udm=28",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQWOWbHXy9qpdBOwujrDXCA_M7DqN6FQxRUSYf9sr82aRGlr378hu6ll-4xO0NJwiSwY-u5ehDrtcZ7_qjaEV_GRwlOuI9WLRzbld_cuxIIUlSNa-6TMtIf",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=catalogid:13495888022332092929,headlineOfferDocid:17833718293097822047,imageDocid:14083893839887734852,rds:PC_3507495238053739665|PROD_PC_3507495238053739665,gpcid:3507495238053739665,mid:576462525211632408,pvt:hg&hl=en&gl=us&udm=28",
     "source": "Etsy - LittlebeastyArt",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:26.349Z"
+    "scrapedAt": "2026-03-14T09:08:47.389Z"
   },
   {
-    "id": "serp-4-1773479066350",
+    "id": "serp-54-1773479332759",
+    "name": "Dispatch Game Shirt",
+    "price": 19.12,
+    "currency": "USD",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSq7q4DP5i48zjBHqTVdv_bMggbGOJ0kVImMZ-JqjT3kLHiY0RJBPwHdj1xp61ejeZzXer-OPQRDxIO4GN9l1rjA4iko8ylkcl9_97_C1W5We2G22QBOdqt",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=catalogid:16634962359913010624,headlineOfferDocid:11550575144109981075,imageDocid:9235259454953715792,pvt:hg&hl=en&gl=us&udm=28",
+    "source": "Etsy - LittlebeastyArt",
+    "inStock": true,
+    "scrapedAt": "2026-03-14T09:08:52.759Z"
+  },
+  {
+    "id": "serp-1-1773479327389",
     "name": "Dispatch Game Shirt",
     "price": 19.13,
     "currency": "USD",
-    "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcT-Gyq-l5X67MzklCuS6FvREQO_T4XOF2bTkI_4txmSMLsthS9JVqo852pTKV1vm-8Ej94AnuloAA",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch merchandise&prds=catalogid:853163210658813107,headlineOfferDocid:4275332912712102120,imageDocid:11813323104664216837,gpcid:10700350156948333617,mid:576462536304171872,pvt:a&hl=en&gl=us&udm=28",
+    "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRGRgIfdUzoYehZsGsjUY2uHCe2TbnBf-AwpJAFQoBVz-OsqRJNbcm5_iiHnW8Gj6dionOmrou0xhKg1-kk8tvluiAsWmvxcresI2Ip4xRhHvy5qsY09O98",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=catalogid:853163210658813107,headlineOfferDocid:4275332912712102120,imageDocid:11813323104664216837,gpcid:10700350156948333617,mid:576462536304171872,pvt:hg&hl=en&gl=us&udm=28",
     "source": "Etsy - LittlebeastyArt",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:26.349Z"
+    "scrapedAt": "2026-03-14T09:08:47.389Z"
   },
   {
-    "id": "serp-14-1773479067212",
+    "id": "serp-16-1773479325951",
     "name": "Dispatch Game Cape Logo Superhero Comedy Adhoc Studio T-Shirt Superhero Poster",
     "price": 19.64,
     "currency": "USD",
     "imageUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT0-I4_u11d_Y19TMt_RdDgUX2hzoaeJT-CeSoSQPE4P14ZyK1o23463DkLVx4On89fK4zmJILZ8N2q4aWfKR8jNxrKMRgp5phg2XxyiyxO_rIPRifDMZlvKQ",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch merchandise&prds=productid:13334335817986908827,headlineOfferDocid:13334335817986908827,imageDocid:17046487682115605504,pvt:a&hl=en&gl=us&udm=28",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=productid:13334335817986908827,headlineOfferDocid:13334335817986908827,imageDocid:17046487682115605504,pvt:a&hl=en&gl=us&udm=28",
     "source": "Redbubble",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:27.211Z"
+    "scrapedAt": "2026-03-14T09:08:45.950Z"
   },
   {
-    "id": "serp-22-1773479067212",
+    "id": "serp-25-1773479325951",
     "name": "Dispatch Game Logo Superhero Comedy Adhoc Studio T-Shirt Superhero Poster",
     "price": 19.64,
     "currency": "USD",
     "imageUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTlnUAbVMICP1h-65joynzmLzGNKwSUpSvC7vF7AirJ4-XKDx9-qEj6GusOC8scef2xfoT3mwE6cbXSqxUYsrf4eYniEd-r7BU9rgumcq9uRboSe-0_vhtLCA",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch merchandise&prds=productid:9856128124958090963,headlineOfferDocid:9856128124958090963,imageDocid:18057194383516291924,pvt:a&hl=en&gl=us&udm=28",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=productid:9856128124958090963,headlineOfferDocid:9856128124958090963,imageDocid:18057194383516291924,pvt:a&hl=en&gl=us&udm=28",
     "source": "Redbubble",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:27.211Z"
+    "scrapedAt": "2026-03-14T09:08:45.950Z"
   },
   {
-    "id": "serp-29-1773479066350",
-    "name": "Dispatch Game Art Socks",
-    "price": 19.82,
+    "id": "serp-39-1773479327389",
+    "name": "Heavy Cotton Dispatch Game T-Shirt",
+    "price": 19.99,
     "currency": "USD",
-    "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRqeukpTeMFx93qxeH-5SwddEfSYD9jmhIfH1J_MnVAVOzK38Rx8Fe4MZz0k_zcu_KlnecZbCzTBg",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch merchandise&prds=catalogid:10923431663540469026,headlineOfferDocid:17770959371326227310,imageDocid:394991391579693915,pvt:a&hl=en&gl=us&udm=28",
-    "source": "Redbubble",
+    "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcR9VfrGGCp2tpOQDlv3fR4QWBRYeT-8ISY1Z4uzA-jN3p0mLuHWCUKrFCh0SAV1tDZ-oCiS5WsfypD27_qyklICx1kgDAbE0BniSZ5onSvr",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=catalogid:1314752547580384094,headlineOfferDocid:15368702100993334954,imageDocid:13227122004452497571,rds:CID_1314752547580384094|PROD_CID_1314752547580384094,pvt:hg&hl=en&gl=us&udm=28",
+    "source": "Etsy - Seller",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:26.349Z"
+    "scrapedAt": "2026-03-14T09:08:47.389Z"
   },
   {
-    "id": "serp-5-1773479067212",
+    "id": "serp-6-1773479325951",
     "name": "Dispatch Adhoc Superhero Dispatching Network Sdn Cosplay Mug",
     "price": 19.99,
     "currency": "USD",
     "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRU1JGaC2H_KWcGlGcy46jyVTU_AeOfKnKxTGPLI48_m-oYM2tsIOGaUEvzhqp7N_gHP1cLnFLt9JmpA5sCs9Lw1rXWnHKd5apX2H08kiU",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch merchandise&prds=productid:12268125505572125234,headlineOfferDocid:12268125505572125234,imageDocid:4270383838973989782,pvt:a&hl=en&gl=us&udm=28",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=productid:12268125505572125234,headlineOfferDocid:12268125505572125234,imageDocid:4270383838973989782,pvt:a&hl=en&gl=us&udm=28",
     "source": "eBay - fiendnyc",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:27.211Z"
+    "scrapedAt": "2026-03-14T09:08:45.950Z"
   },
   {
-    "id": "serp-33-1773479067212",
+    "id": "serp-32-1773479325951",
     "name": "Dispatch Game Logo Superhero Comedy Adhoc Studio T-Shirt Superhero Coffee Mug",
     "price": 20.46,
     "currency": "USD",
     "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR8ff1Efl_oU3Loz6nr_Ql4_y1Q42u7n3E4bktmRlA5Mm1IP4JcD4VeEaWEAHF0NXfaIsqtKNAFoLA-G9hrKS43YQcLS1FqiTgXBOCJ1jC0",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch merchandise&prds=productid:9507436314561503083,headlineOfferDocid:9507436314561503083,imageDocid:5438705257158895409,pvt:a&hl=en&gl=us&udm=28",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=productid:9507436314561503083,headlineOfferDocid:9507436314561503083,imageDocid:5438705257158895409,pvt:a&hl=en&gl=us&udm=28",
     "source": "Redbubble",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:27.211Z"
+    "scrapedAt": "2026-03-14T09:08:45.950Z"
   },
   {
-    "id": "serp-6-1773479066350",
+    "id": "serp-62-1773479332759",
+    "name": "invisigal Prism Girl Cotton T-Shirt",
+    "price": 22.23,
+    "currency": "USD",
+    "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcT-fJb-VUKUhEIL2EweWJU0gyxCPWZJp1uQVyomQlpLdtvAY0amdeEM1cudbazKYBQwho2yx9MZlwmOaEuXl-YVCPmQkwrIxX0pi3y-wTuglbIB1SmUwsJLqg",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=catalogid:17109943466808699575,headlineOfferDocid:2928705559433759753,imageDocid:12020736755535073805,pvt:hg&hl=en&gl=us&udm=28",
+    "source": "TikTok Shop",
+    "inStock": true,
+    "scrapedAt": "2026-03-14T09:08:52.759Z"
+  },
+  {
+    "id": "serp-75-1773479336683",
+    "name": "Dispatch Kpop Sweatshirt",
+    "price": 23.49,
+    "currency": "USD",
+    "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRXsgE3eR_EzzqoiwYPXTWWorXyM3xa_uR7hZWt3pvxH73wB_Hgpa2GynAMytZf_j86odjCA0WSyEaHij8htwLmgA7OMG7WBY_0Ux4PscelbvRbotQaPkWI3Q",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=catalogid:631935120970539799,headlineOfferDocid:5889282108182993393,imageDocid:3958540107475852227,rds:CID_631935120970539799|PROD_CID_631935120970539799,pvt:a&hl=en&gl=us&udm=28",
+    "source": "Etsy - Seller",
+    "inStock": true,
+    "scrapedAt": "2026-03-14T09:08:56.683Z"
+  },
+  {
+    "id": "serp-10-1773479327389",
     "name": "Vintage Dispatch Game Washed Shirt",
     "price": 23.61,
     "currency": "USD",
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTEK_HepQ44YZdr_loSFOriXk1a3iLKZQ6pvVeZxINFIH2u2502Yfk9nQxSySRyGHJQHTUd_Q-g",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch merchandise&prds=catalogid:13314976813109375674,headlineOfferDocid:5532915436253763801,imageDocid:10597785114668284416,rds:CID_13314976813109375674|PROD_CID_13314976813109375674,pvt:a&hl=en&gl=us&udm=28",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQxx3A59dfsT_MYh0Om-BKzKKJ3npbBYDTXZdAqH54oZnXGAvt5JzYZlaAw_R0PeAbZjLdjcRDgJsBH36FGaEbLKGC6Mpkd9ijfSZzRX5lL_FZAz-IIgJomNA",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=catalogid:13314976813109375674,headlineOfferDocid:5532915436253763801,imageDocid:10597785114668284416,rds:CID_13314976813109375674|PROD_CID_13314976813109375674,pvt:hg&hl=en&gl=us&udm=28",
     "source": "Etsy - Seller",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:26.349Z"
+    "scrapedAt": "2026-03-14T09:08:47.389Z"
   },
   {
-    "id": "serp-1-1773479067212",
+    "id": "serp-37-1773479327389",
+    "name": "Dispatch Game Arcade Classic T-Shirt",
+    "price": 23.99,
+    "currency": "USD",
+    "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcToa4L71GKE79wjH3CuaHHRhL-Ku_sCSdhdfHA0_H7yvwMmw9sAOJrfuWk-ThR3kfiJ_ZoN7dI0_Y0r2OrSVeuCsGpjjlzrFHmgYgDDKZo",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=catalogid:11008752239226752485,headlineOfferDocid:4394501137806679480,imageDocid:18445751669559328691,pvt:hg&hl=en&gl=us&udm=28",
+    "source": "Redbubble",
+    "inStock": true,
+    "scrapedAt": "2026-03-14T09:08:47.389Z"
+  },
+  {
+    "id": "serp-89-1773479338290",
+    "name": "ADHOC Z-Team Collage Water Classic T-Shirt",
+    "price": 23.99,
+    "currency": "USD",
+    "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRGgCBFEWJlc6E5XGi7dItb8ogvwBcJQi35L2WRGaEWenBpICDwE1eqbnu87QeqsKlPCtdG_BN93TVs9ZL5VwZQg7VuOAGv5cVxalY3v1C0",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=catalogid:8505882712627107331,headlineOfferDocid:6189167320372068053,imageDocid:10522788800603355694,pvt:a&hl=en&gl=us&udm=28",
+    "source": "Redbubble",
+    "inStock": true,
+    "scrapedAt": "2026-03-14T09:08:58.290Z"
+  },
+  {
+    "id": "serp-18-1773479327389",
+    "name": "Dispatch Game Character Merch Dispatch Game T-shirt",
+    "price": 24.95,
+    "currency": "USD",
+    "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRs6Efa4-Anr_xxdjB_EZW9y3Lg88eKNexX7OAK1F9qgMTb_mJ5VO0peFZPEySyfxKrB1JR2qJmOZ2wlwOKuSOC5mtKFBpVDq6Wo9j9-mPJD_qI1iIPv0gA",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=productid:6240358044065246149,headlineOfferDocid:6240358044065246149,imageDocid:18221348412808300977,pvt:hg&hl=en&gl=us&udm=28",
+    "source": "eBay - ptolom-66",
+    "inStock": true,
+    "scrapedAt": "2026-03-14T09:08:47.389Z"
+  },
+  {
+    "id": "serp-77-1773479338290",
+    "name": "Dispatch Game Character Merch Dispatch Game T-shirt",
+    "price": 24.95,
+    "currency": "USD",
+    "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRs6Efa4-Anr_xxdjB_EZW9y3Lg88eKNexX7OAK1F9qgMTb_mJ5VO0peFZPEySyfxKrB1JR2qJmOZ2wlwOKuSOC5mtKFBpVDq6Wo9j9-mPJD_qI1iIPv0gA",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=productid:6240358044065246149,headlineOfferDocid:6240358044065246149,imageDocid:18221348412808300977,pvt:a&hl=en&gl=us&udm=28",
+    "source": "eBay - ptolom-66",
+    "inStock": true,
+    "scrapedAt": "2026-03-14T09:08:58.290Z"
+  },
+  {
+    "id": "serp-1-1773479325951",
     "name": "Dispatch Adhoc Mecha Man Robert Robertson Shirt",
     "price": 24.99,
     "currency": "USD",
     "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRv_cxb9mZsLXeh1iZN2qizU8AhgPx9djSTDlLDPwUGjPPZGnivUaFhj53q42rcijb7yPinZ1dFJ_lOeowLMYMHA9bNj5IIrLZlTsxv0zOS",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch merchandise&prds=productid:833830763741021738,headlineOfferDocid:833830763741021738,imageDocid:16750224902129934418,pvt:a&hl=en&gl=us&udm=28",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=productid:833830763741021738,headlineOfferDocid:833830763741021738,imageDocid:16750224902129934418,pvt:a&hl=en&gl=us&udm=28",
     "source": "eBay - fiendnyc",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:27.211Z"
+    "scrapedAt": "2026-03-14T09:08:45.950Z"
   },
   {
-    "id": "serp-27-1773479067212",
+    "id": "serp-35-1773479325951",
     "name": "XINSUO Unisex Hoodie with Pockets and Drawstring",
     "price": 24.99,
     "currency": "USD",
     "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTO_U_cjC9tzDOBtSDl1y_dwT84YdonBm77h7adfic6TD2QXFDNjd-5e_NQ7Hqd-PUjzknB1xH8QdTrw_PIyomdR_DDYAmX",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch merchandise&prds=catalogid:5992148794409790218,headlineOfferDocid:5952378005263332713,imageDocid:926071935093754050,pvt:a&hl=en&gl=us&udm=28",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=catalogid:6242550089961931955,headlineOfferDocid:6751320781785280993,imageDocid:926071935093754050,pvt:a&hl=en&gl=us&udm=28",
     "source": "Walmart - xinsuo",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:27.211Z"
+    "scrapedAt": "2026-03-14T09:08:45.950Z"
   },
   {
-    "id": "serp-20-1773479067212",
+    "id": "serp-18-1773479325951",
     "name": "Dhudes's Closet Dispatch Hoodie",
     "price": 25,
     "currency": "USD",
     "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSe_AraJT2mhi8OSx87yHtIE8P-r-ob_bAI4_7iy8ij2963thH0yVfdEAwc4ED3IuKzQaLluhLNiyuGhbRkR0O3zEw0TPtgcTrRT-B0zLfv",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch merchandise&prds=catalogid:5349321336166772697,headlineOfferDocid:6897849593318951266,imageDocid:13673671422829685059,pvt:a&hl=en&gl=us&udm=28",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=catalogid:5349321336166772697,headlineOfferDocid:6897849593318951266,imageDocid:13673671422829685059,pvt:a&hl=en&gl=us&udm=28",
     "source": "Poshmark",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:27.211Z"
+    "scrapedAt": "2026-03-14T09:08:45.950Z"
   },
   {
-    "id": "serp-18-1773479066350",
+    "id": "serp-11-1773479327389",
     "name": "Dispatch Game Classic T-Shirt",
     "price": 25.99,
     "currency": "USD",
-    "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRmfUT665lQwg9MBmiXpX8AIII1fOurcx5JuQ-qnuzmYDQvz51a5vPidj_UtB0",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch merchandise&prds=catalogid:7976612265371654313,headlineOfferDocid:9873329591810560308,imageDocid:12731780413612050111,pvt:a&hl=en&gl=us&udm=28",
+    "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRD2pAUCvtqn3pk1SaPCaIYAChfDktevG7Txi6ix0ScgEC8JfsQoIFc6Cu2LwNoXADms4-YzvFMppb4eG0fTE3xPNi7rlQzNvGuz8b5Xrb1",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=catalogid:7976612265371654313,headlineOfferDocid:9873329591810560308,imageDocid:12731780413612050111,pvt:hg&hl=en&gl=us&udm=28",
     "source": "Redbubble",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:26.349Z"
+    "scrapedAt": "2026-03-14T09:08:47.389Z"
   },
   {
-    "id": "serp-30-1773479067212",
+    "id": "serp-22-1773479325951",
     "name": "ADHOC Studio Superhero Cape Logo T-Shirt",
     "price": 25.99,
     "currency": "USD",
     "imageUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTy0jGvSymEEwbdju94Ow_tUctp87PTrkFxxz2HhiwdntJizV5tHmjorF00xUSBKHEnIIXjPOBXjeu5KztAt0NIY88jy2lN4Ww4GFzDwG4",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch merchandise&prds=catalogid:8017778341830643158,headlineOfferDocid:14734677306797877294,imageDocid:16544975199689762304,pvt:a&hl=en&gl=us&udm=28",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=catalogid:8017778341830643158,headlineOfferDocid:14734677306797877294,imageDocid:16544975199689762304,pvt:a&hl=en&gl=us&udm=28",
     "source": "Redbubble",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:27.211Z"
+    "scrapedAt": "2026-03-14T09:08:45.950Z"
   },
   {
-    "id": "serp-36-1773479067212",
+    "id": "serp-29-1773479325951",
     "name": "ADHOC Studio Superhero Classic T-Shirt",
     "price": 25.99,
     "currency": "USD",
     "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcReac7RiFNAPOUkhhscr5eCra09XLlZ233DtrrBjcL5q4HINKr-xK-WXrMwubdDpm3EoGDI5Xg-HZWSUA-IzAgDhKqNEcvYWFdCK5zvdJkH",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch merchandise&prds=catalogid:10674472999290067166,headlineOfferDocid:14570770202819103466,imageDocid:7120013887480173973,pvt:a&hl=en&gl=us&udm=28",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=catalogid:10674472999290067166,headlineOfferDocid:14570770202819103466,imageDocid:7120013887480173973,pvt:a&hl=en&gl=us&udm=28",
     "source": "Redbubble",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:27.211Z"
+    "scrapedAt": "2026-03-14T09:08:45.950Z"
   },
   {
-    "id": "serp-13-1773479066350",
+    "id": "serp-7-1773479327389",
     "name": "Dispatch Game Poster T-Shirt",
     "price": 26.19,
     "currency": "USD",
-    "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcS1kHqZIS2HEIDx6wLCnGNQ2k4uGI5OcPHSrtAToeqO3pY21lA_XbhnV7K_pw",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch merchandise&prds=catalogid:6482645428286008001,headlineOfferDocid:270328317893826003,imageDocid:10461426130339595186,pvt:a&hl=en&gl=us&udm=28",
+    "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRALOD-lFzo4UiCGJLQTIrd_XiO5A77pjUi3Te07Bj7tC6UhzRUs5iHwojJgxbN6FVBAIiqr9fvn6bFeMv9toGTSvbqx-HpCOXkNgGZnPc",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=catalogid:6482645428286008001,headlineOfferDocid:270328317893826003,imageDocid:10461426130339595186,pvt:hg&hl=en&gl=us&udm=28",
     "source": "Redbubble",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:26.349Z"
+    "scrapedAt": "2026-03-14T09:08:47.389Z"
   },
   {
-    "id": "serp-37-1773479066350",
-    "name": "Dispatch Game Art Classic T-Shirt",
-    "price": 27.99,
+    "id": "serp-28-1773479327389",
+    "name": "Dispatch Game Poster 2 T-Shirt",
+    "price": 26.19,
     "currency": "USD",
-    "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTOIPIPJQmEZHucdWYqNsXfFDCkRFEP_cDSqU_hA3D7JN54KTIQvPfP23T8ow",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch merchandise&prds=catalogid:11150898461977682617,headlineOfferDocid:17252143647763007763,imageDocid:16249944593426215529,pvt:a&hl=en&gl=us&udm=28",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQ1c0ZIDEYO0IWxRFffiRp48xxd2T-MawD-hwB54LRCwQSO9ffMGGBS9ym2eyF-fJ8CsVve1RtR920KIx-HcSZa6NUtzVa_LTPNeiy9adV2",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=catalogid:11944728148405691775,headlineOfferDocid:1562708473617446547,imageDocid:15128136437912685280,pvt:hg&hl=en&gl=us&udm=28",
     "source": "Redbubble",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:26.349Z"
+    "scrapedAt": "2026-03-14T09:08:47.389Z"
   },
   {
-    "id": "serp-23-1773479066350",
-    "name": "Crewneck Sweatshirt",
-    "price": 28,
+    "id": "serp-69-1773479332759",
+    "name": "A True Hero Classic T-Shirt",
+    "price": 26.19,
     "currency": "USD",
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSsdlFpBJxi2D8jFfCcsDqdzE8Cp-oTro3Fh6F0CPrRkusXxxwc",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch merchandise&prds=catalogid:13956966662825114072,headlineOfferDocid:16866356656887148868,imageDocid:7269080844722038628,pvt:a&hl=en&gl=us&udm=28",
-    "source": "TeePublic",
+    "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTHx9v4MrkQPf4LNZLWyg4tP9WLv_05E1MGMI7bpcKuWcbpR6HtrqYNiG8hCTRnK4Mm5elnmQ0bHR5ZawO1dM0F1pmFvtDDCA6lDTbXEtw",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=catalogid:9782015524641663040,headlineOfferDocid:3816152119609173750,imageDocid:7510647806243045607,pvt:hg&hl=en&gl=us&udm=28",
+    "source": "Redbubble",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:26.349Z"
+    "scrapedAt": "2026-03-14T09:08:52.759Z"
   },
   {
-    "id": "serp-31-1773479066350",
+    "id": "serp-21-1773479327389",
     "name": "Vintage Crewneck Sweatshirt",
     "price": 28,
     "currency": "USD",
-    "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSlLAtJSyTllAxVQlCndsVLmdRhXZBdYUGsH22IXG3snoY2WH1Y",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch merchandise&prds=catalogid:8801027135836942855,headlineOfferDocid:14148814329188173184,imageDocid:8102088830021703599,pvt:a&hl=en&gl=us&udm=28",
+    "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTyiCKbquuha0Rgtw3Cfhv0cJRuFwhofS5ZzFNAuPEQuDpDcTOJU0rMKBMR9lLL6PS5yEhieb9wowP2JYwKP9r7BOGzMFed7Q",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=catalogid:8801027135836942855,headlineOfferDocid:14148814329188173184,imageDocid:8102088830021703599,pvt:hg&hl=en&gl=us&udm=28",
     "source": "TeePublic",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:26.349Z"
+    "scrapedAt": "2026-03-14T09:08:47.389Z"
   },
   {
-    "id": "serp-21-1773479067212",
+    "id": "serp-26-1773479327389",
+    "name": "Crewneck Sweatshirt",
+    "price": 28,
+    "currency": "USD",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQmzbJnjqTbaEpEjCgaEWGuZaJl6sV6jCcW3PmSwFOi2Z4FFKJD_rUTzT0MRo-hx9dohJaFvcluO_fuCciDPIHaoAKPN4JzhA",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=catalogid:13956966662825114072,headlineOfferDocid:16866356656887148868,imageDocid:7269080844722038628,pvt:hg&hl=en&gl=us&udm=28",
+    "source": "TeePublic",
+    "inStock": true,
+    "scrapedAt": "2026-03-14T09:08:47.389Z"
+  },
+  {
+    "id": "serp-47-1773479333993",
+    "name": "Green Dispatch Tee XL",
+    "price": 28,
+    "currency": "USD",
+    "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcT_fkLpS-NRH_YFS-QIVRRB2fyopoK1N1SSj9Wpu6Vh7jkIURrv9UIU_YJOYoRJXcscgjvAjWDXCLvfFGmWFHlaQx8qCZBloy3r6sJ9FOGAOngbbrcKErp4",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=productid:17606013847107807509,headlineOfferDocid:17606013847107807509,imageDocid:1596504456986846946,pvt:a&hl=en&gl=us&udm=28",
+    "source": "eBay - buckets-or-boxes-bodega",
+    "inStock": true,
+    "scrapedAt": "2026-03-14T09:08:53.993Z"
+  },
+  {
+    "id": "serp-23-1773479325951",
     "name": "Dispatch Game Character Merch Dispatch Game T-shirt",
     "price": 28.95,
     "currency": "USD",
     "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRs6Efa4-Anr_xxdjB_EZW9y3Lg88eKNexX7OAK1F9qgMTb_mJ5VO0peFZPEySyfxKrB1JR2qJmOZ2wlwOKuSOC5mtKFBpVDq6Wo9j9-mPJD_qI1iIPv0gA",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch merchandise&prds=productid:1222970631657554726,headlineOfferDocid:1222970631657554726,imageDocid:18221348412808300977,pvt:a&hl=en&gl=us&udm=28",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=productid:1222970631657554726,headlineOfferDocid:1222970631657554726,imageDocid:18221348412808300977,pvt:a&hl=en&gl=us&udm=28",
     "source": "eBay - ptolom-66",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:27.211Z"
+    "scrapedAt": "2026-03-14T09:08:45.950Z"
   },
   {
-    "id": "serp-20-1773479066350",
-    "name": "Dispatch Video Game Sweatshirt",
-    "price": 29.37,
-    "currency": "USD",
-    "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRsuoqxD0T_oEjsHKnjdu6HS9qy9HNasNUhgxjy7K7xNbcKv2Y",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch merchandise&prds=catalogid:7785018398417378579,headlineOfferDocid:13145215389878321767,imageDocid:9602886762166868751,pvt:a&hl=en&gl=us&udm=28",
-    "source": "Etsy - LittlebeastyArt",
-    "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:26.349Z"
-  },
-  {
-    "id": "serp-37-1773479067212",
+    "id": "serp-50-1773479332759",
     "name": "Dispatch Video Game Sweatshirt",
     "price": 29.37,
     "currency": "USD",
     "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRQX3t6lh5rllnu9XuYcMMd_OGTmXCP-hL28OIDcvQnUEuC7K71QRmqDqPio053Q9qcfYUpbkDXd6i0ISJ3gQWgEz6cSufa",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch merchandise&prds=catalogid:7785018398417378579,headlineOfferDocid:13145215389878321767,imageDocid:9602886762166868751,pvt:a&hl=en&gl=us&udm=28",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=catalogid:7785018398417378579,headlineOfferDocid:13145215389878321767,imageDocid:9602886762166868751,pvt:hg&hl=en&gl=us&udm=28",
     "source": "Etsy - LittlebeastyArt",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:27.211Z"
+    "scrapedAt": "2026-03-14T09:08:52.759Z"
   },
   {
-    "id": "serp-28-1773479066350",
+    "id": "serp-38-1773479325951",
+    "name": "Dispatch Video Game Sweatshirt",
+    "price": 29.37,
+    "currency": "USD",
+    "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRQX3t6lh5rllnu9XuYcMMd_OGTmXCP-hL28OIDcvQnUEuC7K71QRmqDqPio053Q9qcfYUpbkDXd6i0ISJ3gQWgEz6cSufa",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=catalogid:7785018398417378579,headlineOfferDocid:13145215389878321767,imageDocid:9602886762166868751,pvt:a&hl=en&gl=us&udm=28",
+    "source": "Etsy - LittlebeastyArt",
+    "inStock": true,
+    "scrapedAt": "2026-03-14T09:08:45.950Z"
+  },
+  {
+    "id": "serp-3-1773479325951",
+    "name": "Handmade Plush Figure",
+    "price": 29.6,
+    "currency": "USD",
+    "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSSGUM4bZTIiGKcnvKtMWmg_gF0hk_2Wo2pw_buIm21t3myWSlQ8b7qHkzpAruDjr4v5LbK3dIxUnHjvyMf8-Z9uTlVgCmIv8enbdxW1N7jFjXPt7qiHHIn",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=catalogid:6182075167290975569,headlineOfferDocid:1838506872605092411,imageDocid:8859073704107049611,pvt:a&hl=en&gl=us&udm=28",
+    "source": "Etsy - Seller",
+    "inStock": true,
+    "scrapedAt": "2026-03-14T09:08:45.950Z"
+  },
+  {
+    "id": "serp-98-1773479338290",
+    "name": "ADHOC Z-Team Oversized Collage T-Shirt",
+    "price": 30,
+    "currency": "USD",
+    "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRtc6WXxIzt-5L8raoZmJvQM4czL1V5cfoxqY8SUpNOYJbmYQAm3bBqS_45iMO2A4cCgF4yKjGE821mSWujXnkT4AHNZmEwFgpNxZSqkhkl",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=catalogid:5410262324983213463,headlineOfferDocid:17345584327868649752,imageDocid:17677789989442028209,pvt:a&hl=en&gl=us&udm=28",
+    "source": "Redbubble",
+    "inStock": true,
+    "scrapedAt": "2026-03-14T09:08:58.290Z"
+  },
+  {
+    "id": "serp-22-1773479327389",
     "name": "Dispatch Video Game Sdn Embroidered T-Shirt",
     "price": 31.5,
     "currency": "USD",
-    "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSblADa7bj0EtZllpJFLvDDEHb8su-zWuzAXpowEC4m0foxB9dGGoLV9CuO1MFgygyeBp527ffZc6I",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch merchandise&prds=catalogid:481743561241199280,headlineOfferDocid:17429204620156691802,imageDocid:1918249774031808290,rds:CID_481743561241199280|PROD_CID_481743561241199280,pvt:a&hl=en&gl=us&udm=28",
+    "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRfkHZYzhVAllFCSKiwG2RfJFKGSxCukO-0DUu-wLoTCBl_PVHW-YDnF8hCay1vgM6F3K7OIGCb1lpeJaReTMW9ssMWD0gmpisfynsPN7hx--vvZ0SY-_zyog",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=catalogid:481743561241199280,headlineOfferDocid:17429204620156691802,imageDocid:1918249774031808290,rds:CID_481743561241199280|PROD_CID_481743561241199280,pvt:hg&hl=en&gl=us&udm=28",
     "source": "Etsy - Seller",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:26.349Z"
+    "scrapedAt": "2026-03-14T09:08:47.389Z"
   },
   {
-    "id": "serp-21-1773479066350",
+    "id": "serp-20-1773479327389",
     "name": "Dispatch Game Character Strip Pop Art T-Shirt",
     "price": 32,
     "currency": "USD",
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSXH5Tl9ZsppJ3hqmY3oFBD2YkcH9YCVW-d6HSBx7b1OVgmJsInTgAG2iBwALRNW3iXh6I84eRn",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch merchandise&prds=catalogid:5362373319026647553,headlineOfferDocid:17203126969521159462,imageDocid:4369296763965491280,pvt:a&hl=en&gl=us&udm=28",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRp2NhCwpmUyL84QZiem9cyK0wtXLZFzlOmwq9q8yf-pdwRnJCB7OAslzBDEQJgdstuNPD9xotuQiRUelRABbU2kTYz4U-cKsGApmqtJLRZuyr6nXqyNs4_gw",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=catalogid:5362373319026647553,headlineOfferDocid:17203126969521159462,imageDocid:4369296763965491280,pvt:hg&hl=en&gl=us&udm=28",
     "source": "Redbubble",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:26.349Z"
+    "scrapedAt": "2026-03-14T09:08:47.389Z"
   },
   {
-    "id": "serp-33-1773479066350",
+    "id": "serp-24-1773479327389",
     "name": "ADHOC Z-Team Collage Water Boxy T-Shirt",
     "price": 32,
     "currency": "USD",
-    "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQAfBBkT00ghCgyJBwpwZOE9YT2mKjAcrUfLwcMLw0tW9S5r_IZh_vZMf7-6LeSthqG3_rdxHYF",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch merchandise&prds=catalogid:343733760916206085,headlineOfferDocid:14229811123071913747,imageDocid:5882229753924584707,pvt:a&hl=en&gl=us&udm=28",
+    "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRfIhLwClnjPn5DTu0F6FlpHHoHeIl1uN4F1QG_39k3uiUq8X7UpEaZpambaotwUBigwb9eNCxgiChruqhXkSCD7ma__UaLlOTS2BFzA4xL_MI14Sx-Klz8XQ",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=catalogid:343733760916206085,headlineOfferDocid:14229811123071913747,imageDocid:5882229753924584707,pvt:hg&hl=en&gl=us&udm=28",
     "source": "Redbubble",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:26.349Z"
+    "scrapedAt": "2026-03-14T09:08:47.389Z"
   },
   {
-    "id": "serp-6-1773479067212",
+    "id": "serp-8-1773479325951",
     "name": "ADHOC Anime Blazer T-Shirt",
     "price": 32,
     "currency": "USD",
     "imageUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRmLynSwLv1kdEGoMSGo_9C4BR3GOEdJvu7KXWLVMv7XZr9I7fbif1l-5ts-KZf7eM5-HXDiR7NsLVGTqE2yvsp1dXEDLBam84yvrViR87H5jeEhsV2BiHlOlg",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch merchandise&prds=catalogid:5656071701363777638,headlineOfferDocid:12600769797236387617,imageDocid:9971951814931004656,pvt:a&hl=en&gl=us&udm=28",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=catalogid:5656071701363777638,headlineOfferDocid:12600769797236387617,imageDocid:9971951814931004656,pvt:a&hl=en&gl=us&udm=28",
     "source": "Redbubble",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:27.211Z"
+    "scrapedAt": "2026-03-14T09:08:45.950Z"
   },
   {
-    "id": "serp-16-1773479066350",
+    "id": "serp-59-1773479333993",
+    "name": "ADHOC Z-Team Collage Water Boxy T-Shirt",
+    "price": 32,
+    "currency": "USD",
+    "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQYrMUrvnIH1x2GZFFWQMBtWJofH29IG3GfSrp_bBW7F1zNh9bb-c7pzh5XZMWzi7BcAN_QQ8KhDQgM8BdvUUD4cLD-n2A79oAkDNaQ_Zt3Igt0dJ6rZxvKVg",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=catalogid:343733760916206085,headlineOfferDocid:14229811123071913747,imageDocid:5882229753924584707,pvt:a&hl=en&gl=us&udm=28",
+    "source": "Redbubble",
+    "inStock": true,
+    "scrapedAt": "2026-03-14T09:08:53.993Z"
+  },
+  {
+    "id": "serp-15-1773479327389",
+    "name": "Dispatch Game Collage Oversized T-Shirt",
+    "price": 32.5,
+    "currency": "USD",
+    "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTvcCO1vX0HfZxfu1CVbej5wSeyrP4EIU4DDsXL-8mYsdZz0uD82OQMOYNqKN3O84HJFKuo0L-8tnrZFjGZhZgPVkT3fbM4q5CX8H1wTjk",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=catalogid:10101381819117157859,headlineOfferDocid:10896231498411204482,imageDocid:9716159117992155846,pvt:hg&hl=en&gl=us&udm=28",
+    "source": "Redbubble",
+    "inStock": true,
+    "scrapedAt": "2026-03-14T09:08:47.389Z"
+  },
+  {
+    "id": "serp-23-1773479327389",
     "name": "Dispatch Game T-shirt – Robert/mechaman Vs Toxic Chat Gamer Merch",
     "price": 32.99,
     "currency": "USD",
-    "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSxPifWjrHW4E2zFXPrwA_pBW-nZ4jJ4smHuJeWig0nGy5d8IWLqrvtvRIiC6ijA_7h22YIqNOa",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch merchandise&prds=productid:7963767348523493670,headlineOfferDocid:7963767348523493670,imageDocid:11100035291787935015,pvt:a&hl=en&gl=us&udm=28",
+    "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQSirtkBw3lMhxfPn4p4dm6SxxwyKIrt2ciT57utepYqOsC84S4vtSiSOVjuU6vz6TvWTpMCn29Cc06CVIyLDCyjajOH5ghI-AW-xVElv5gYYSB6kRneDjX",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=productid:7963767348523493670,headlineOfferDocid:7963767348523493670,imageDocid:11100035291787935015,pvt:hg&hl=en&gl=us&udm=28",
     "source": "eBay",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:26.349Z"
+    "scrapedAt": "2026-03-14T09:08:47.389Z"
   },
   {
-    "id": "serp-35-1773479067212",
+    "id": "serp-71-1773479332759",
     "name": "Dispatch Game T-shirt – Robert/mechaman Vs Toxic Chat Gamer Merch",
-    "price": 32.99,
+    "price": 33,
     "currency": "USD",
-    "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQHhh1Szl9zji4AnKHqRudCYaL98_AkHOAPdoS78vPd-B7cP_U94p8gQlx-_Rvk7A7LkgylAuNGOVrkndpvWs-n9G_-bekLfbFXoZtB_eFEapL4FNsaLqzj_g",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch merchandise&prds=productid:7963767348523493670,headlineOfferDocid:7963767348523493670,imageDocid:11100035291787935015,pvt:a&hl=en&gl=us&udm=28",
+    "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQSirtkBw3lMhxfPn4p4dm6SxxwyKIrt2ciT57utepYqOsC84S4vtSiSOVjuU6vz6TvWTpMCn29Cc06CVIyLDCyjajOH5ghI-AW-xVElv5gYYSB6kRneDjX",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=productid:9403411128948180179,headlineOfferDocid:9403411128948180179,imageDocid:11100035291787935015,pvt:hg&hl=en&gl=us&udm=28",
     "source": "eBay",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:27.211Z"
+    "scrapedAt": "2026-03-14T09:08:52.759Z"
   },
   {
-    "id": "serp-17-1773479067212",
-    "name": "Dispatch Hoodie",
+    "id": "serp-5-1773479327389",
+    "name": "Displate Metal Poster",
+    "price": 33.74,
+    "currency": "USD",
+    "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQf3ijoy83ENg8mmXS2UV4GPAerMhXGBuSlNiHRvUHYegSNjdUfhqCMy1OIC0sjMyBAk2hihRhVUrNdH4hfIYT9rMdhCLqV1FPqnSksoezVaxolQd_aLMyu",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=catalogid:18263607055101849838,headlineOfferDocid:16716555612479741536,imageDocid:5448292809861580453,gpcid:9003771610681465087,pvt:hg&hl=en&gl=us&udm=28",
+    "source": "Displate.com",
+    "inStock": true,
+    "scrapedAt": "2026-03-14T09:08:47.389Z"
+  },
+  {
+    "id": "serp-9-1773479325951",
+    "name": "Robert Robertson Cosplay Long Sleeve T-Shirt",
     "price": 34,
     "currency": "USD",
-    "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcS4F0lDv5tl5ouncPc4kjXTVb7_0Tejq1HumTL0o-rd6YrxypKFHctOaoN3zIqAQFwrbUORxUEPVZxIDSZLT2hnNQGJDizrqw",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch merchandise&prds=catalogid:5508844975262119556,headlineOfferDocid:11595492797648684935,imageDocid:9150038915939806662,pvt:a&hl=en&gl=us&udm=28",
-    "source": "TeePublic",
+    "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSAbyXLbOB_M675NRE98gcvLpnTgaq-snM6M3anrfpFnbuQHe16a9RsX-PjCKr-sk06Vbq-ZiP8AzzQ7ynBESqvtdDN8tVj4ziGVMhXBjOUJD2kgtp3vO5JFw",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=catalogid:11463664385296290339,headlineOfferDocid:1592822628619503419,imageDocid:3321084830596912702,rds:CID_11463664385296290339|PROD_CID_11463664385296290339,pvt:a&hl=en&gl=us&udm=28",
+    "source": "Etsy - Seller",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:27.211Z"
+    "scrapedAt": "2026-03-14T09:08:45.950Z"
   },
   {
-    "id": "serp-0-1773479067212",
+    "id": "serp-0-1773479325951",
     "name": "Dispatch Game Z-Team Robert Handmade 10cm Doll - AdHoc Studio Superhero Fan Plush Figure!",
     "price": 34.4,
     "currency": "USD",
     "imageUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQ8uIdehGJpMYiF7nt0JLRVpdvJcU-n_1vKD_1iIo_Mw4WrAB798kry7GHyPrP1gBxObMQQ0FP1V73TOhxvAFntB9WVQRS26vqPQQOux1xY",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch merchandise&prds=productid:7803326219169182275,headlineOfferDocid:7803326219169182275,imageDocid:6287066340725303208,rds:LO_7803326219169182275|PROD_LO_7803326219169182275,pvt:a&hl=en&gl=us&udm=28",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=productid:7803326219169182275,headlineOfferDocid:7803326219169182275,imageDocid:6287066340725303208,rds:LO_7803326219169182275|PROD_LO_7803326219169182275,pvt:a&hl=en&gl=us&udm=28",
     "source": "Etsy - Seller",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:27.211Z"
+    "scrapedAt": "2026-03-14T09:08:45.950Z"
   },
   {
-    "id": "serp-4-1773479067212",
+    "id": "serp-2-1773479325951",
     "name": "Dispatch Game Z-Team Water boy Handmade 10cm Doll - AdHoc Studio Superhero Fan Plush Figure!",
     "price": 34.4,
     "currency": "USD",
     "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcT7qjiMy7MeJ8krmnTDzbFFjQh5TngtGQf9wXOFJHdhber2xANy45ZbdE7Y87Iff16VIjZM0LraYNDwNt5bvX0bOyOBITuCdbX_kQJNq5lV",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch merchandise&prds=productid:8857143937188397896,headlineOfferDocid:8857143937188397896,imageDocid:7397752742693181037,rds:LO_8857143937188397896|PROD_LO_8857143937188397896,pvt:a&hl=en&gl=us&udm=28",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=productid:8857143937188397896,headlineOfferDocid:8857143937188397896,imageDocid:7397752742693181037,rds:LO_8857143937188397896|PROD_LO_8857143937188397896,pvt:a&hl=en&gl=us&udm=28",
     "source": "Etsy - Seller",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:27.211Z"
+    "scrapedAt": "2026-03-14T09:08:45.950Z"
   },
   {
-    "id": "serp-25-1773479066350",
-    "name": "Sdn Logo 2 Boxy T-Shirt",
+    "id": "serp-79-1773479336683",
+    "name": "ADHOC Studio Superhero Comedy T-Shirt",
     "price": 34.67,
     "currency": "USD",
-    "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTpHVLPDgw1bXu3stDew92qS3q_nQBgw-NLT9N92pn5AK7eOYEVPUdAlkumwZefciaUqA52oagzLQ",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch merchandise&prds=catalogid:6295763887474983265,headlineOfferDocid:2461260842172965,imageDocid:2013444107838812070,pvt:a&hl=en&gl=us&udm=28",
+    "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRFx4ohV9XulADwjk8Al0jD9fCigpuswHfsZ3X-nLyO5HjP2wFliMGg_gIvkcBeCVPjiHAMa7oeVqZnb9MA1vppnODaCCzAnCDd51p5IfPcBqA4cDPMLttKq2I",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=catalogid:17632352882944045958,headlineOfferDocid:12102009567586394423,imageDocid:16310123387966832589,pvt:a&hl=en&gl=us&udm=28",
     "source": "Redbubble",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:26.349Z"
+    "scrapedAt": "2026-03-14T09:08:56.683Z"
   },
   {
-    "id": "serp-34-1773479067212",
+    "id": "serp-11-1773479325951",
+    "name": "PREORDER Waterboy & Flambae Plush Doll Keychains",
+    "price": 34.89,
+    "currency": "USD",
+    "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQSetS4-QZEv6ezl5rqDPvKHSqosJaYP7o2Xn_Ovj5RxVs-mraPm5qtfMyXfqCScJuWz5ap1fsei_UaRUsB-oS_00KYqWukuxVBgXRaTKmJ6PMnFS_DOLRR",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=catalogid:8731639995679819279,headlineOfferDocid:15000463976741067151,imageDocid:2514792553169361585,rds:CID_8731639995679819279|PROD_CID_8731639995679819279,pvt:a&hl=en&gl=us&udm=28",
+    "source": "Etsy - Seller",
+    "inStock": true,
+    "scrapedAt": "2026-03-14T09:08:45.950Z"
+  },
+  {
+    "id": "serp-33-1773479327389",
+    "name": "Dispatch Game Hoodie",
+    "price": 36.53,
+    "currency": "USD",
+    "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRltDE38T2bjuDsRjOBKEPgN1MkHlQ5DL3Tn0TN-U2sHyMsRpYv-ahRAfnKn_YHO2K9EDLr_EFcYrNWqhC8RZJszUtFmrszgvPu3X-Gmhc-B1Jiu9JVv8s6",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=catalogid:14769817304886557461,headlineOfferDocid:7076128557246180842,imageDocid:11120690647884244953,rds:PC_16533737350383817638|PROD_PC_16533737350383817638,gpcid:16533737350383817638,mid:576462871287442812,pvt:hg&hl=en&gl=us&udm=28",
+    "source": "Etsy - LittlebeastyArt",
+    "inStock": true,
+    "scrapedAt": "2026-03-14T09:08:47.389Z"
+  },
+  {
+    "id": "serp-31-1773479325951",
     "name": "Dispatch Game Hoodie",
     "price": 36.53,
     "currency": "USD",
     "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSDtPyBswHdh33dUlSTwf83cTyu5tG_G0O3j-pMrFln8n14_jPVV_q5u9sR4nqH4uS0ikS2P2WrJqmcNrxV29ZTpCgymj-3Nk3KYaVM14ytEAalCP06-BcQdD0",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch merchandise&prds=catalogid:14769817304886557461,headlineOfferDocid:7076128557246180842,imageDocid:11120690647884244953,rds:PC_16533737350383817638|PROD_PC_16533737350383817638,gpcid:16533737350383817638,mid:576462871287442812,pvt:a&hl=en&gl=us&udm=28",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=catalogid:14769817304886557461,headlineOfferDocid:7076128557246180842,imageDocid:11120690647884244953,rds:PC_16533737350383817638|PROD_PC_16533737350383817638,gpcid:16533737350383817638,mid:576462871287442812,pvt:a&hl=en&gl=us&udm=28",
     "source": "Etsy - LittlebeastyArt",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:27.211Z"
+    "scrapedAt": "2026-03-14T09:08:45.950Z"
   },
   {
-    "id": "serp-17-1773479066350",
+    "id": "serp-36-1773479325951",
+    "name": "Robert Robertson Cosplay Dispatch Sdn Embroidered Cotton T-Shirt",
+    "price": 37,
+    "currency": "USD",
+    "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcR4ZfR1SajglgK-57AEjAElESM5jdzNSGFncoot-fQMG2wLvNS827KMXYh8dsHDVygOA1ibibgi9Tu964nX3f27mUsC_RjCXnXztyPMYHtDw2P035RN_321Bw",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=catalogid:10517868773365497811,headlineOfferDocid:16761472126100750869,imageDocid:13865213545012071921,pvt:a&hl=en&gl=us&udm=28",
+    "source": "Etsy - Seller",
+    "inStock": true,
+    "scrapedAt": "2026-03-14T09:08:45.950Z"
+  },
+  {
+    "id": "serp-39-1773479325951",
+    "name": "Dispatch Game T-shirt – Robert/mechaman Vs Toxic Chat Gamer Merch",
+    "price": 38.9,
+    "currency": "USD",
+    "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQHhh1Szl9zji4AnKHqRudCYaL98_AkHOAPdoS78vPd-B7cP_U94p8gQlx-_Rvk7A7LkgylAuNGOVrkndpvWs-n9G_-bekLfbFXoZtB_eFEapL4FNsaLqzj_g",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=productid:3091672105514266275,headlineOfferDocid:3091672105514266275,imageDocid:11100035291787935015,pvt:a&hl=en&gl=us&udm=28",
+    "source": "eBay",
+    "inStock": true,
+    "scrapedAt": "2026-03-14T09:08:45.950Z"
+  },
+  {
+    "id": "serp-13-1773479327389",
     "name": "Dispatch Game Unisex Graphic Crewneck Sweatshirt",
     "price": 41.59,
     "currency": "USD",
-    "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSpI9XvyTKKgNPBnuiOKoRwC7NnUv45tf6cai3gMLcHENvU1vKzvt9asrJmsfcKxNNbb-h6Vm8",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch merchandise&prds=catalogid:1121476505716312762,headlineOfferDocid:14889315676331540401,imageDocid:8534367474715161486,pvt:a&hl=en&gl=us&udm=28",
+    "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRX4bSTd_aCfDa4Y-hb880uhwRpTkSJtoVKVrOvojOzyV6O4PmMqMprHTL85VzF662GYUreCeKxbwHcOqU-C9o9iZ7u1xrCoSQNJzCJDgGEVf_QyNdYhkdH",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=catalogid:1121476505716312762,headlineOfferDocid:14889315676331540401,imageDocid:8534367474715161486,pvt:hg&hl=en&gl=us&udm=28",
     "source": "Etsy - Seller",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:26.349Z"
+    "scrapedAt": "2026-03-14T09:08:47.389Z"
   },
   {
-    "id": "serp-36-1773479066350",
-    "name": "Unisex Gamer Sweatshirt",
-    "price": 41.59,
+    "id": "serp-87-1773479338290",
+    "name": "ADHOC Z-Team Collage Water Hoodie",
+    "price": 41.94,
     "currency": "USD",
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQ6O6Ezvq44tPdtd9o1IHVc82iIUAdcK9w5ayjHpRj-wAJKgA2of6LOlamcR-iRgspTrgr5y-8",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch merchandise&prds=catalogid:8529570904425325918,headlineOfferDocid:15745055192336661812,imageDocid:18272633604705860508,pvt:a&hl=en&gl=us&udm=28",
-    "source": "Etsy - Seller",
+    "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTLMSZ5bMraRC9PqS9tzGYDbYCahYU2HIMgZcKbUs3_YDApijkE-KSN_zZXs2mMj7YhYADdDG05yt5BiFGgXNy4LmyhRwaMD6fphQWukRJ-",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=catalogid:1120381211504457556,headlineOfferDocid:9836483151035775220,imageDocid:7146665083022027541,pvt:a&hl=en&gl=us&udm=28",
+    "source": "Redbubble",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:26.349Z"
+    "scrapedAt": "2026-03-14T09:08:58.290Z"
   },
   {
-    "id": "serp-38-1773479067212",
-    "name": "VAC Dispatch Hoodie",
-    "price": 45,
+    "id": "serp-50-1773479333993",
+    "name": "Gold Label Dispatches from Elsewhere Hoodie",
+    "price": 43.99,
     "currency": "USD",
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRWaWBmHJS8agfdF9WVVv09I44oBY1YSpasGhHWJpvw_WUpJTvP3rOhohuwU6gdaKrQGY9PGyyYag8h8ZTSkDD6UNFPbnvytVkz9xtCn6bSDf4_mMq_CfDOuw",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch merchandise&prds=catalogid:11768022627403013021,headlineOfferDocid:7157650549071286343,imageDocid:5914376088511046232,gpcid:9111196186850492655,mid:576462833667408588,pvt:a&hl=en&gl=us&udm=28",
-    "source": "FN Simple Uniforms",
+    "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSe7Gh8HBDZh5iS1RRumzv_Evo3e9dcJONmies2kaKwLdL97klldP_jfmV150VxCjFjbhAA0hY1r2Yhe5dr0byvfcz5ohejlO05-UdgK-Wc",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=catalogid:11029587169828212282,headlineOfferDocid:18094309022088017553,imageDocid:18197520343173765517,gpcid:5130491314540313015,mid:576462512322262963,pvt:a&hl=en&gl=us&udm=28",
+    "source": "Gold Label",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:27.211Z"
+    "scrapedAt": "2026-03-14T09:08:53.993Z"
   },
   {
-    "id": "serp-2-1773479066350",
+    "id": "serp-8-1773479327389",
     "name": "Dispatch Game Sdn Graphic Hoodie",
     "price": 47.94,
     "currency": "USD",
-    "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSYOYjp-6Sn2c48t2CWCDVQKbt_RZEL8dcWzMzkVjbw6mp67YMEGHcHWOpKrPKrR-ow8ipvTwkU",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch merchandise&prds=catalogid:15966938028080880707,headlineOfferDocid:7876174111686926497,imageDocid:17506635002538723214,rds:CID_15966938028080880707|PROD_CID_15966938028080880707,pvt:a&hl=en&gl=us&udm=28",
+    "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQgeMyJHwvxgbNwzIexA6TTQYAfWmRJtGDgKRm-5BUjUUoCddbroBQ27cWhNNmamUMHMh5QfOXUiT-HOjcUzw6HGOl9lPB5cuFdQ2UzkkD4u-DXMs6iGY-gXg",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=catalogid:15966938028080880707,headlineOfferDocid:7876174111686926497,imageDocid:17506635002538723214,rds:CID_15966938028080880707|PROD_CID_15966938028080880707,pvt:hg&hl=en&gl=us&udm=28",
     "source": "Etsy - Seller",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:26.349Z"
+    "scrapedAt": "2026-03-14T09:08:47.389Z"
   },
   {
-    "id": "serp-15-1773479067212",
+    "id": "serp-17-1773479325951",
     "name": "Dispatch Game Sdn Graphic Hoodie",
     "price": 47.94,
     "currency": "USD",
     "imageUrl": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTrzFWVfxTNYZqmhlqQWhBZw0gza7uQb-Rpql9Kujtpn3vaxNyNfB0H-JJjRwJoTJ1rLUIK2QyBGYImvTEb3m1jpVDNLr6zlQOqNvqbQKBQ-EHn5vGqkDJMLg",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch merchandise&prds=catalogid:15966938028080880707,headlineOfferDocid:7876174111686926497,imageDocid:17506635002538723214,rds:CID_15966938028080880707|PROD_CID_15966938028080880707,pvt:a&hl=en&gl=us&udm=28",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=catalogid:15966938028080880707,headlineOfferDocid:7876174111686926497,imageDocid:17506635002538723214,rds:CID_15966938028080880707|PROD_CID_15966938028080880707,pvt:a&hl=en&gl=us&udm=28",
     "source": "Etsy - Seller",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:27.211Z"
+    "scrapedAt": "2026-03-14T09:08:45.950Z"
   },
   {
-    "id": "serp-39-1773479067212",
+    "id": "serp-53-1773479333993",
+    "name": "Artistshot Dispatch EP Cover Zipper Hoodie",
+    "price": 49.4,
+    "currency": "USD",
+    "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTw7dgdYwMYh942CuT9m5nzlszZEIIoA1xGUrfLkKV-eoYvnr1n02tL4KY-xYdICqueWyriuVVDMq_NT_g9Xvo0TYqHFw0JN9bZKtHBXvOGDdoATNMdaVdm",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=catalogid:16517974195266511516,headlineOfferDocid:11360174451727787940,imageDocid:9081697430472643991,gpcid:182731330704504586,pvt:a&hl=en&gl=us&udm=28",
+    "source": "Artistshot",
+    "inStock": true,
+    "scrapedAt": "2026-03-14T09:08:53.993Z"
+  },
+  {
+    "id": "serp-32-1773479327389",
+    "name": "Dispatch Game Gaming Pullover Hoodie",
+    "price": 50.69,
+    "currency": "USD",
+    "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQnt_ZlielXI1nS32aLYlnpTMAMCjA8tP_55bzVDp0yoS46QRBj_NZ8JA527-kx_ZYPjV2DU-Ap53jcP640Aap9b_ybg9B_Gsf5MZkE-H9l",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch&prds=catalogid:6874816534080928321,headlineOfferDocid:178532789290884468,imageDocid:13962908707389529479,pvt:hg&hl=en&gl=us&udm=28",
+    "source": "Redbubble",
+    "inStock": true,
+    "scrapedAt": "2026-03-14T09:08:47.389Z"
+  },
+  {
+    "id": "serp-37-1773479325951",
     "name": "ADHOC Studio Superhero Cape Logo Pullover Hoodie",
     "price": 50.69,
     "currency": "USD",
     "imageUrl": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQqb6KfCMydgilGB63UryIF_4IjKt11PUSw3cn1LLICTbnaQScktcZ-f_jUmtCo2uT0JCFEphaFoEG65s2w4873URFYnNxm_fNauG8NxaVX",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch merchandise&prds=catalogid:3487547417999531744,headlineOfferDocid:773202276478601369,imageDocid:7502647859109174723,pvt:a&hl=en&gl=us&udm=28",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=catalogid:3487547417999531744,headlineOfferDocid:773202276478601369,imageDocid:7502647859109174723,pvt:a&hl=en&gl=us&udm=28",
     "source": "Redbubble",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:27.211Z"
+    "scrapedAt": "2026-03-14T09:08:45.950Z"
   },
   {
-    "id": "serp-15-1773479066350",
-    "name": "Dispatch Video Game Embroidered Sweatshirt",
-    "price": 50.98,
-    "currency": "USD",
-    "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQMib64xUGRBJutHj_eIsHS_D35QqCnWuJlRxZFYVyC8zBpiWqcYsVCWyzv_u7ZmzR2AlKklLz_",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch merchandise&prds=catalogid:5987126063807007920,headlineOfferDocid:11273188732531681918,imageDocid:8978056666889037973,pvt:a&hl=en&gl=us&udm=28",
-    "source": "Etsy - Seller",
-    "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:26.349Z"
-  },
-  {
-    "id": "serp-23-1773479067212",
+    "id": "serp-21-1773479325951",
     "name": "Dispatch Video Game Embroidered Sweatshirt",
     "price": 50.98,
     "currency": "USD",
     "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTnCe-Puo0hUFc1MxZS6Klzp7MuEP4sPO-RK92pS5iVnbbqLUTg1ZwRcVQd9qroiFSOJMGZ5cBKgpuuQploAocR1tLaIV5gvs0HAf0whbwp-mQP_wRZz-gbhQ",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch merchandise&prds=catalogid:5987126063807007920,headlineOfferDocid:11273188732531681918,imageDocid:8978056666889037973,pvt:a&hl=en&gl=us&udm=28",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=catalogid:5987126063807007920,headlineOfferDocid:11273188732531681918,imageDocid:8978056666889037973,pvt:a&hl=en&gl=us&udm=28",
     "source": "Etsy - Seller",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:27.211Z"
+    "scrapedAt": "2026-03-14T09:08:45.950Z"
   },
   {
-    "id": "serp-12-1773479066350",
-    "name": "Robert Robertson Cosplay Mecha Man Suit Zip-Up Hoodie",
-    "price": 70,
+    "id": "serp-90-1773479338290",
+    "name": "Artistshot Dispatch EP Cover Vintage Hoodie",
+    "price": 54.15,
     "currency": "USD",
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQviNvQ0EfFCwN1RTzMaMtdepapArp3VcJGo3LFFWMO4wJAm-zut7yfvYQvQmGqYkGK55pZLeM",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch merchandise&prds=catalogid:2462535133266267832,headlineOfferDocid:6661239035506606924,imageDocid:17936200880837588232,rds:CID_2462535133266267832|PROD_CID_2462535133266267832,pvt:a&hl=en&gl=us&udm=28",
-    "source": "Etsy - Seller",
+    "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRPV1X28ckUsOMs-1s6IBGRlB9Or4GT-QIvS4XbNbuYxvOh2XOMLFuobrTyEd19D0kNZzOAFREwjOneLCiQIK0IDg_Az7FUGFC-NUQjxlI",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=catalogid:16022985381222660829,headlineOfferDocid:2091986186470749526,imageDocid:6364463849453286585,gpcid:16879289677152134392,pvt:a&hl=en&gl=us&udm=28",
+    "source": "Artistshot",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:26.349Z"
+    "scrapedAt": "2026-03-14T09:08:58.290Z"
   },
   {
-    "id": "serp-34-1773479066350",
-    "name": "Robert Robertson Cosplay Dispatch Sdn Embroidered Button-Down Dress Shirt",
-    "price": 70,
-    "currency": "USD",
-    "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcScwF3Ddp93BYhhyT6AF5Rtk7I6eJGOQE55y3uZymdO3btU8E2ZMBoCYrX06ajKc7d3UmX1pYw",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch merchandise&prds=catalogid:4146390578024074595,headlineOfferDocid:4453311216825858965,imageDocid:3606404350702509073,rds:PC_619578182825544746|PROD_PC_619578182825544746,gpcid:619578182825544746,mid:576462542658132594,pvt:a&hl=en&gl=us&udm=28",
-    "source": "Etsy - Seller",
-    "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:26.349Z"
-  },
-  {
-    "id": "serp-7-1773479067212",
+    "id": "serp-7-1773479325951",
     "name": "Robert Robertson Cosplay Dispatch Sdn Embroidered Button-Down Dress Shirt",
     "price": 70,
     "currency": "USD",
     "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcT4sibrdKbTFlDz4YQLYh0-W6KMHrJ_minXkFXpOjYfJAP_B5qQJFujee7WH8XIuda5VOhk7KR71NYFWIjZ0Bu1EAADFTd6T-hVoiJcMlWg35hyceiJojvK",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch merchandise&prds=catalogid:4146390578024074595,headlineOfferDocid:4453311216825858965,imageDocid:3606404350702509073,rds:PC_619578182825544746|PROD_PC_619578182825544746,gpcid:619578182825544746,mid:576462542658132594,pvt:a&hl=en&gl=us&udm=28",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=catalogid:4146390578024074595,headlineOfferDocid:4453311216825858965,imageDocid:3606404350702509073,rds:PC_619578182825544746|PROD_PC_619578182825544746,gpcid:619578182825544746,mid:576462542658132594,pvt:a&hl=en&gl=us&udm=28",
     "source": "Etsy - Seller",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:27.211Z"
+    "scrapedAt": "2026-03-14T09:08:45.950Z"
   },
   {
-    "id": "serp-10-1773479067212",
+    "id": "serp-14-1773479325951",
     "name": "Robert Robertson Cosplay Mecha Man Suit Zip-Up Hoodie",
     "price": 70,
     "currency": "USD",
     "imageUrl": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcR-nTOlOaJJSFRX3RF9HOzYrS360tKKK_3hZn73W0b0oTXqieku7bvpfGziu_B8wQY20F5lA5lzxa_baqg0-eqgPgA9Q4MZAm1LEYWq0FmbATAO2SIyZeZY",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch merchandise&prds=catalogid:2462535133266267832,headlineOfferDocid:6661239035506606924,imageDocid:17936200880837588232,rds:CID_2462535133266267832|PROD_CID_2462535133266267832,pvt:a&hl=en&gl=us&udm=28",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=catalogid:2462535133266267832,headlineOfferDocid:6661239035506606924,imageDocid:17936200880837588232,rds:CID_2462535133266267832|PROD_CID_2462535133266267832,pvt:a&hl=en&gl=us&udm=28",
     "source": "Etsy - Seller",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:27.211Z"
+    "scrapedAt": "2026-03-14T09:08:45.950Z"
   },
   {
-    "id": "serp-22-1773479066350",
+    "id": "serp-63-1773479336683",
     "name": "Embroidered Dispatch Sweatshirt",
     "price": 71.03,
     "currency": "USD",
-    "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSV7FPdaH3zN_xmSsKL47jUuWpd1UsHpqs4hRyH77d83TX1E7vSh5DHmhayiW3lQty90DO726OT",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch merchandise&prds=catalogid:15447140512917827586,headlineOfferDocid:14218535049200013089,imageDocid:18024388843642958029,pvt:a&hl=en&gl=us&udm=28",
+    "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSPDVgeaHe9syYL2CsEODxCjZL3tlZ_NfjgWzEtweS_EgTqI9v9PvTE28hHClGYRN2sUgEzD_L2-YWUiD7qy_CByyuEeO0sZL-B47Mq4CGXxKZpX4QV9h7mpw",
+    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Adhoc Studio Merch&prds=catalogid:15447140512917827586,headlineOfferDocid:14218535049200013089,imageDocid:18024388843642958029,pvt:a&hl=en&gl=us&udm=28",
     "source": "Etsy - Seller",
     "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:26.349Z"
-  },
-  {
-    "id": "serp-32-1773479066350",
-    "name": "Invisigal Visi Crewneck Sweatshirt",
-    "price": 71.03,
-    "currency": "USD",
-    "imageUrl": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ04znSBxbWF04jhuCNYSuJvmD4gjZaXyM7r-d4FlVoMIV9eG7MDAukmzSHmKsQoe_3WGHLSqlr",
-    "productUrl": "https://www.google.com/search?ibp=oshop&q=Dispatch Game Merch merchandise&prds=catalogid:3819436867620712969,headlineOfferDocid:18154247767985604151,imageDocid:8857283195889090937,pvt:a&hl=en&gl=us&udm=28",
-    "source": "Etsy - Seller",
-    "inStock": true,
-    "scrapedAt": "2026-03-14T09:04:26.349Z"
+    "scrapedAt": "2026-03-14T09:08:56.683Z"
   }
 ]

@@ -117,7 +117,7 @@ async function scrapeShopify(): Promise<Product[]> {
 
 // ── SerpAPI scraper ────────────────────────────────────
 
-async function scrapeSerpApi(query: string): Promise<Product[]> {
+async function scrapeSerpApi(query: string, pages: number = 4): Promise<Product[]> {
   const apiKey = process.env.SERPAPI_KEY;
 
   if (!apiKey) {
@@ -125,59 +125,72 @@ async function scrapeSerpApi(query: string): Promise<Product[]> {
     return [];
   }
 
-  console.log(`  SerpAPI: searching for "${query}"...`);
+  console.log(`  SerpAPI: searching for "${query}" (${pages} pages)...`);
 
-  try {
-    const controller = new AbortController();
-    const timeout = setTimeout(() => controller.abort(), 15_000);
+  const allProducts: Product[] = [];
 
-    const searchQuery = encodeURIComponent(`${query} merchandise`);
-    const url = `https://serpapi.com/search.json?engine=google_shopping&q=${searchQuery}&api_key=${apiKey}&num=20`;
+  for (let page = 0; page < pages; page++) {
+    try {
+      const controller = new AbortController();
+      const timeout = setTimeout(() => controller.abort(), 15_000);
 
-    const res = await fetch(url, { signal: controller.signal });
-    clearTimeout(timeout);
+      const searchQuery = encodeURIComponent(query);
+      const start = page * 20;
+      const url = `https://serpapi.com/search.json?engine=google_shopping&q=${searchQuery}&api_key=${apiKey}&num=20&start=${start}`;
 
-    if (!res.ok) {
-      const body = await res.text();
-      console.error(`  SerpAPI: returned ${res.status}: ${body}`);
-      return [];
+      const res = await fetch(url, { signal: controller.signal });
+      clearTimeout(timeout);
+
+      if (!res.ok) {
+        const body = await res.text();
+        console.error(`  SerpAPI: page ${page + 1} returned ${res.status}: ${body}`);
+        break;
+      }
+
+      const data = (await res.json()) as SerpApiResponse;
+
+      if (data.error) {
+        console.error(`  SerpAPI: page ${page + 1} error — ${data.error}`);
+        break;
+      }
+
+      const items = data.shopping_results ?? [];
+      if (items.length === 0) {
+        console.log(`  SerpAPI: page ${page + 1} — no more results`);
+        break;
+      }
+
+      const now = new Date().toISOString();
+
+      const products: Product[] = items
+        .filter((item) => {
+          const hostname = getHostname(item.product_link);
+          return !EXCLUDED_DOMAINS.some((d) => hostname.endsWith(d));
+        })
+        .filter((item) => item.thumbnail)
+        .map((item, index) => ({
+          id: `serp-${start + index}-${Date.now()}`,
+          name: item.title,
+          price: item.extracted_price ?? null,
+          currency: "USD",
+          imageUrl: item.thumbnail ?? "",
+          productUrl: item.product_link,
+          source: item.source ?? getHostname(item.product_link),
+          inStock: true,
+          scrapedAt: now,
+        }));
+
+      allProducts.push(...products);
+      console.log(`  SerpAPI: page ${page + 1} — ${products.length} products`);
+    } catch (err: unknown) {
+      const message = err instanceof Error ? err.message : String(err);
+      console.error(`  SerpAPI: page ${page + 1} error — ${message}`);
+      break;
     }
-
-    const data = (await res.json()) as SerpApiResponse;
-
-    if (data.error) {
-      console.error(`  SerpAPI: error — ${data.error}`);
-      return [];
-    }
-
-    const items = data.shopping_results ?? [];
-    const now = new Date().toISOString();
-
-    const products: Product[] = items
-      .filter((item) => {
-        const hostname = getHostname(item.product_link);
-        return !EXCLUDED_DOMAINS.some((d) => hostname.endsWith(d));
-      })
-      .filter((item) => item.thumbnail)
-      .map((item, index) => ({
-        id: `serp-${index}-${Date.now()}`,
-        name: item.title,
-        price: item.extracted_price ?? null,
-        currency: "USD",
-        imageUrl: item.thumbnail ?? "",
-        productUrl: item.product_link,
-        source: item.source ?? getHostname(item.product_link),
-        inStock: true,
-        scrapedAt: now,
-      }));
-
-    console.log(`  SerpAPI: found ${products.length} products`);
-    return products;
-  } catch (err: unknown) {
-    const message = err instanceof Error ? err.message : String(err);
-    console.error(`  SerpAPI: error — ${message}`);
-    return [];
   }
+
+  console.log(`  SerpAPI: total for "${query}" — ${allProducts.length} products`);
+  return allProducts;
 }
 
 // ── eBay scraper ───────────────────────────────────────
