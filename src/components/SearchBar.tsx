@@ -10,13 +10,7 @@ export default function SearchBar({ onSearch }: SearchBarProps) {
   const [query, setQuery] = useState("");
 
   useEffect(() => {
-    if (query.length === 0) {
-      onSearch("");
-      return;
-    }
-    if (query.length < 2) return;
-    const timer = setTimeout(() => onSearch(query), 500);
-    return () => clearTimeout(timer);
+    onSearch(query);
   }, [query, onSearch]);
 
   const handleKeyDown = useCallback(
@@ -48,7 +42,7 @@ export default function SearchBar({ onSearch }: SearchBarProps) {
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         onKeyDown={handleKeyDown}
-        placeholder="Search a brand or franchise..."
+        placeholder="Filter products..."
         className="bg-[#1a1a1a] border border-[#333] rounded-full pl-10 pr-5 py-2 text-sm text-white placeholder-[#666] w-[200px] md:w-[280px] focus:outline-none focus:border-[#555] transition-colors"
       />
     </div>
