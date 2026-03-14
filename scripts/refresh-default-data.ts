@@ -277,11 +277,11 @@ async function scrapeEbay(query: string): Promise<Product[]> {
 async function main() {
   console.log("Refreshing default product data...\n");
 
-  // 2 queries × 4 pages each = 8 searches/day = ~240/month (within 250 free limit)
+  // 4 + 2 pages = 6 searches/day = ~180/month (within 250 free limit)
   const [shopifyProducts, serp1, serp2, ebayProducts] = await Promise.all([
     scrapeShopify(),
     scrapeSerpApi("Dispatch Game Merch", 4),
-    scrapeSerpApi("Dispatch Adhoc Studio Merch", 4),
+    scrapeSerpApi("Dispatch Game Displate", 2),
     scrapeEbay("dispatch adhoc studio game"),
   ]);
 
