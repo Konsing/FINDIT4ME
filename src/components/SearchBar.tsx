@@ -4,10 +4,15 @@ import { useState, useEffect, useCallback } from "react";
 
 interface SearchBarProps {
   onSearch: (query: string) => void;
+  resetKey: number;
 }
 
-export default function SearchBar({ onSearch }: SearchBarProps) {
+export default function SearchBar({ onSearch, resetKey }: SearchBarProps) {
   const [query, setQuery] = useState("");
+
+  useEffect(() => {
+    setQuery("");
+  }, [resetKey]);
 
   useEffect(() => {
     onSearch(query);

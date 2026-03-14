@@ -15,12 +15,20 @@ export default function Home() {
     defaultProducts as Product[]
   );
   const [aboutOpen, setAboutOpen] = useState(false);
+  const [resetKey, setResetKey] = useState(0);
+
+  const handleLogoClick = () => {
+    handleSearch("");
+    setResetKey((k) => k + 1);
+  };
 
   return (
     <div className="min-h-screen flex flex-col bg-black">
       <Header
         onSearch={handleSearch}
         onAboutClick={() => setAboutOpen(true)}
+        onLogoClick={handleLogoClick}
+        resetKey={resetKey}
       />
       <BrandBar
         brandName="Dispatch (2025)"
