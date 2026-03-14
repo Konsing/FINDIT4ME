@@ -277,18 +277,16 @@ async function scrapeEbay(query: string): Promise<Product[]> {
 async function main() {
   console.log("Refreshing default product data...\n");
 
-  // 4 queries × 2 pages each = 8 searches/day = ~240/month (within 250 free limit)
-  const [shopifyProducts, serp1, serp2, serp3, serp4, ebayProducts] = await Promise.all([
+  // 2 queries × 4 pages each = 8 searches/day = ~240/month (within 250 free limit)
+  const [shopifyProducts, serp1, serp2, ebayProducts] = await Promise.all([
     scrapeShopify(),
-    scrapeSerpApi("Dispatch Game Merch", 2),
-    scrapeSerpApi("Dispatch Adhoc Studio Merch", 2),
-    scrapeSerpApi("Dispatch game Displate", 2),
-    scrapeSerpApi("Dispatch game Etsy", 2),
+    scrapeSerpApi("Dispatch Game Merch", 4),
+    scrapeSerpApi("Dispatch Adhoc Studio Merch", 4),
     scrapeEbay("dispatch adhoc studio game"),
   ]);
 
   // Merge all products
-  const allProducts = [...shopifyProducts, ...serp1, ...serp2, ...serp3, ...serp4, ...ebayProducts];
+  const allProducts = [...shopifyProducts, ...serp1, ...serp2, ...ebayProducts];
 
   // Deduplicate by productUrl
   const seen = new Set<string>();
@@ -314,7 +312,7 @@ async function main() {
 
   console.log(`\nWrote ${unique.length} total products to dispatch.json`);
   console.log(`  Shopify: ${shopifyProducts.length}`);
-  console.log(`  SerpAPI: ${serp1.length + serp2.length + serp3.length + serp4.length}`);
+  console.log(`  SerpAPI: ${serp1.length + serp2.length}`);
   console.log(`  eBay: ${ebayProducts.length}`);
   console.log(`  After dedup: ${unique.length}`);
 }
