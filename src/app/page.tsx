@@ -20,6 +20,7 @@ export default function Home() {
   const handleLogoClick = () => {
     handleSearch("");
     setResetKey((k) => k + 1);
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   return (
