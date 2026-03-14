@@ -230,8 +230,8 @@ async function scrapeEbay(query: string): Promise<Product[]> {
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), 10_000);
 
-    const searchQuery = encodeURIComponent(`${query} merchandise`);
-    const url = `https://api.ebay.com/buy/browse/v1/item_summary/search?q=${searchQuery}&limit=20&filter=buyingOptions:{FIXED_PRICE}`;
+    const searchQuery = encodeURIComponent(query);
+    const url = `https://api.ebay.com/buy/browse/v1/item_summary/search?q=${searchQuery}&limit=50&filter=buyingOptions:{FIXED_PRICE}`;
 
     const res = await fetch(url, {
       headers: {
@@ -282,7 +282,7 @@ async function main() {
     scrapeShopify(),
     scrapeSerpApi("Dispatch Game Merch", 4),
     scrapeSerpApi("Dispatch Game Displate", 2),
-    scrapeEbay("dispatch adhoc studio game"),
+    scrapeEbay("dispatch video game"),
   ]);
 
   // Merge all products
