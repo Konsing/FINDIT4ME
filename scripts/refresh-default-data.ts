@@ -282,7 +282,7 @@ async function main() {
     scrapeShopify(),
     scrapeSerpApi("Dispatch Game Merch", 4),
     scrapeSerpApi("Dispatch Game Displate", 2),
-    scrapeEbay("dispatch video game"),
+    scrapeEbay("dispatch adhoc"),
   ]);
 
   // Merge all products
