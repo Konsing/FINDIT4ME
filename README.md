@@ -26,8 +26,8 @@ Currently pre-loaded with **Dispatch** (2025 video game by AdHoc Studio) merchan
 - **Direct purchase links** — Every product links straight to the retailer's page in a new tab
 - **Stock status** — "Sold Out" badges on unavailable items with dimmed styling
 - **Responsive grid** — 4 columns on desktop, 3 on tablet, 2 on mobile
-- **Daily refresh** — GitHub Action updates product data every day at 6 AM UTC
-- **Graceful degradation** — Works with zero API keys (serves pre-loaded data), progressively better with each key added
+- **Daily refresh** — GitHub Action re-scrapes all sources every day at 6 AM UTC and commits an updated product list
+- **Static & fast** — Site runs entirely from pre-scraped JSON — no runtime API calls, fully CDN-cached on Vercel
 
 ## Tech Stack
 
@@ -55,20 +55,20 @@ npm install
 
 ### Environment Variables
 
-Copy the example env file and fill in any keys you have:
+The website itself needs **no environment variables** — `dispatch.json` is committed to the repo and served directly.
+
+API keys are only required if you want to run the refresh script locally (otherwise GitHub Actions handles it daily with its own secrets):
 
 ```bash
 cp .env.example .env.local
 ```
 
-| Variable | Required | Description |
-|----------|----------|-------------|
-| `SERPAPI_KEY` | No | SerpAPI key for Google Shopping results (250 free searches/month) |
-| `EBAY_CLIENT_ID` | No | eBay developer app ID (production keyset) |
-| `EBAY_CLIENT_SECRET` | No | eBay developer secret (production keyset) |
-| `SHOPIFY_STORES` | No | Comma-separated Shopify store domains (default: `store.adhocla.com`) |
-
-> **None of the keys are required to run the app.** Without them, the site serves pre-loaded Dispatch products. Each key you add enables an additional data source.
+| Variable | Used By | Description |
+|----------|---------|-------------|
+| `SERPAPI_KEY` | Refresh script | SerpAPI key for Google Shopping results (250 free searches/month) |
+| `EBAY_CLIENT_ID` | Refresh script | eBay developer app ID (production keyset) |
+| `EBAY_CLIENT_SECRET` | Refresh script | eBay developer secret (production keyset) |
+| `SHOPIFY_STORES` | Refresh script | Comma-separated Shopify store domains (default: `store.adhocla.com`) |
 
 ### Development
 
