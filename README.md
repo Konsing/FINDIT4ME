@@ -36,7 +36,6 @@ Currently pre-loaded with **Dispatch** (2025 video game by AdHoc Studio) merchan
 | Framework | Next.js 16 (App Router) + TypeScript |
 | Styling | Tailwind CSS v4 |
 | Hosting | Vercel (free tier) |
-| Caching | Upstash Redis |
 | Product search | SerpAPI (Google Shopping), eBay Browse API, Shopify `/products.json` |
 
 ## Getting Started
@@ -67,8 +66,6 @@ cp .env.example .env.local
 | `SERPAPI_KEY` | No | SerpAPI key for Google Shopping results (250 free searches/month) |
 | `EBAY_CLIENT_ID` | No | eBay developer app ID (production keyset) |
 | `EBAY_CLIENT_SECRET` | No | eBay developer secret (production keyset) |
-| `UPSTASH_REDIS_REST_URL` | No | Upstash Redis URL for search result caching |
-| `UPSTASH_REDIS_REST_TOKEN` | No | Upstash Redis token |
 | `SHOPIFY_STORES` | No | Comma-separated Shopify store domains (default: `store.adhocla.com`) |
 
 > **None of the keys are required to run the app.** Without them, the site serves pre-loaded Dispatch products. Each key you add enables an additional data source.
@@ -109,9 +106,7 @@ src/
 │   ├── layout.tsx              # Root layout (dark theme, fonts, metadata)
 │   ├── page.tsx                # Main page (search, sort state, component assembly)
 │   ├── globals.css             # Tailwind imports
-│   └── api/
-│       ├── products/route.ts   # Product API (cache-first, fallback to scrape)
-│       └── scrape/route.ts     # Raw scraping endpoint
+│   └── favicon.ico             # Site favicon
 ├── components/
 │   ├── Header.tsx              # Logo + search bar + about link
 │   ├── SearchBar.tsx           # Filter input with debounce
@@ -119,37 +114,20 @@ src/
 │   ├── SortDropdown.tsx        # Sort-by dropdown (price, name, default)
 │   ├── ProductGrid.tsx         # Responsive grid with configurable sorting
 │   ├── ProductCard.tsx         # Product display with stock status
-│   ├── LoadingState.tsx        # Skeleton loading cards
-│   ├── ErrorState.tsx          # Error display with retry
 │   ├── Footer.tsx              # Disclaimer
 │   └── AboutModal.tsx          # About dialog
 ├── lib/
 │   ├── types.ts                # TypeScript interfaces
-│   ├── cache.ts                # Upstash Redis cache helpers
-│   ├── useSearch.ts            # Client-side filter hook
-│   └── scrapers/
-│       ├── shopify.ts          # Shopify store scraper
-│       ├── ebay.ts             # eBay Browse API client
-│       ├── google.ts           # SerpAPI Google Shopping client
-│       └── index.ts            # Parallel scraper orchestrator
-├── data/
-│   └── dispatch.json           # Pre-scraped default products (~150 items)
+│   └── useSearch.ts            # Client-side filter hook
+└── data/
+    └── dispatch.json           # Pre-scraped default products (~150 items)
 scripts/
 └── refresh-default-data.ts     # Daily refresh script (Shopify + SerpAPI + eBay)
 ```
 
-## API
+## How It Works
 
-### `GET /api/products?q=<query>`
-
-Returns products for a query. Serves cached results when available.
-
-- No query or `q=dispatch` → returns pre-loaded Dispatch products
-- Any other query → checks cache → scrapes if miss → caches for 24h
-
-### `GET /api/scrape?q=<query>`
-
-Raw scraping endpoint. Always scrapes fresh (no cache). Query must be 2-100 characters.
+The site runs entirely client-side: `dispatch.json` ships with the build, and the search bar filters those products in the browser. The daily GitHub Action re-scrapes all sources and commits an updated `dispatch.json`, which triggers a fresh Vercel deployment.
 
 ## License
 
